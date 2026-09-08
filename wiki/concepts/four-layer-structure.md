@@ -1,5 +1,5 @@
 ---
-title: Four-layer structure of the mean momentum balance (Wei et al. 2005)
+title: Four-layer structure (Wei et al. 2005)
 type: concept
 threads:
   - high-Re-analytical-modeling

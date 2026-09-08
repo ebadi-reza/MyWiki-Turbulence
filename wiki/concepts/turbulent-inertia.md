@@ -12,13 +12,21 @@ updated: 2026-09-08
 # Turbulent inertia
 
 **Definition.** The wall-normal gradient of the Reynolds shear stress appearing in the mean momentum equation:
-$$\text{TI} \equiv \frac{\partial(-\overline{u'v'})}{\partial y}$$
+
+$$
+\text{TI} \equiv \frac{\partial(-\overline{u'v'})}{\partial y}
+$$
+
 It represents the net mean force per unit mass exerted by turbulent motions and is one of the leading terms in the [[four-layer-structure|mean momentum balance]]. Where TI acts as a **source** it accelerates the mean flow; where it acts as a **sink** it decelerates it.
 
 ## Source-like and sink-like regions
 
 Viewed as a force in the mean momentum balance, TI has **source-like** (positive, accelerating) and **sink-like** (negative, decelerating) regions, and integrates to zero across the layer:
-$$\int_0^{h^+}\frac{\partial\langle -u'v'\rangle^+}{\partial y^+}\,dy^+ = 0$$
+
+$$
+\int_0^{h^+}\frac{\partial\langle -u'v'\rangle^+}{\partial y^+}\,dy^+ = 0
+$$
+
 In **steady** turbulent channel/ZPG flow there is a single near-wall **momentum source** (large, wallward of the peak Reynolds stress) and a single **momentum sink** (weaker, from the peak out to the centreline); net action transports momentum from the outer sink region to the inner source region. [source: [[2019-ebadi-jfm]]]
 
 ### Centreline momentum source (unique to OCF)

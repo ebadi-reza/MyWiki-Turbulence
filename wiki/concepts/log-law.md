@@ -15,7 +15,11 @@ updated: 2026-09-08
 ## Definition
 
 In wall-bounded turbulent flow, over an intermediate region the mean streamwise velocity in wall units follows a logarithmic profile:
-$$\langle u\rangle^+ = \frac{1}{\kappa}\ln(y^+) + B$$
+
+$$
+\langle u\rangle^+ = \frac{1}{\kappa}\ln(y^+) + B
+$$
+
 where `κ` is the **von Kármán coefficient** (slope = 1/κ) and `B` the additive constant (intercept at `y⁺=1`). For steady turbulent flow over hydraulically smooth walls, **κ ≈ 0.40 and B ≈ 5.2** (with documented Reynolds-number variation; Nagib & Chauhan 2008). [source]
 
 The log law is a **dimensional necessity** when the inner (`δ_ν = ν/u_τ`) and outer (`h` or `δ`) length scales are sufficiently separated — i.e. when `h⁺` (or Re_τ) is large enough (Smits, McKeon & Marusic 2011).
@@ -33,7 +37,11 @@ The log law is a **dimensional necessity** when the inner (`δ_ν = ν/u_τ`) an
 ## Thermal / scalar log law
 
 The temperature (passive scalar) field has an analogous logarithmic region:
-$$\Theta^+ = \frac{1}{\kappa_T}\ln(y^+) + C_2(Pr), \qquad \Theta = T_w - T(y)$$
+
+$$
+\Theta^+ = \frac{1}{\kappa_T}\ln(y^+) + C_2(Pr), \qquad \Theta = T_w - T(y)
+$$
+
 normalized by the friction temperature `T_τ = q″_w/(ρ c_p u_τ)`. The intercept `C₂` depends on Prandtl number. Reported **`κ_T ≈ 0.48`** (varies by flow) [[2019-biles-jfe]]. [source]
 
 From the mean-equation [[self-similar-hierarchy]], the inertial-domain scalar layer width `W⁺_θ` is linear in `y⁺` with slope `1/φ_θc`, integrating to a scalar log law with **scalar von Kármán constant `κ_θ = 1/φ²_θc`** ([[2020-ebadi-jfm]]; Zhou et al. 2017). See[[uniform-temperature-zones]]. [source]

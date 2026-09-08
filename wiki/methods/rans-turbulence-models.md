@@ -1,5 +1,5 @@
 ---
-title: RANS turbulence models (EVM; low-Re k-ε and v²-f)
+title: RANS turbulence models (k-ε, v²-f)
 type: method
 threads:
   - cfd-validation-method

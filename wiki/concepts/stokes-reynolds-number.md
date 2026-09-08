@@ -1,5 +1,5 @@
 ---
-title: Stokes Reynolds number & the five flow regimes
+title: Stokes Reynolds number & five regimes
 type: concept
 threads:
   - non-equilibrium-pulsatile-flow
@@ -13,7 +13,11 @@ updated: 2026-09-08
 ## Definition
 
 For oscillatory / reciprocating wall-bounded flow, the governing similarity variable is the **Stokes Reynolds number**
-$$Re_s = \frac{U_m\, l_s}{\nu}, \qquad l_s \equiv \sqrt{\frac{2\nu}{\omega}}$$
+
+$$
+Re_s = \frac{U_m\, l_s}{\nu}, \qquad l_s \equiv \sqrt{\frac{2\nu}{\omega}}
+$$
+
 where `U_m` is the amplitude of the cross-sectional average velocity, `l_s` is the **Stokes-layer thickness**, `ω` the angular frequency of oscillation, and `ν` the kinematic viscosity. `l_s` is the viscous penetration depth of an oscillating wall/flow.
 
 ## The five flow regimes

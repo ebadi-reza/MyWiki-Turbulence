@@ -1,5 +1,5 @@
 ---
-title: Biles, Ebadi, Allard & White (2019) — The Design and Validation of a Thermal Boundary Layer Wall Plate
+title: Biles 2019 — Thermal wall plate & NEAT tunnel (JFE)
 type: source
 threads:
   - experimental-turbulence-measurement

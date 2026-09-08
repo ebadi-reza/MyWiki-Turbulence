@@ -1,5 +1,5 @@
 ---
-title: Pond, Ebadi, Dubief & White (2017) — An integral validation technique of RANS turbulence models
+title: Pond 2017 — Integral RANS validation (Comp. Fluids)
 type: source
 threads:
   - cfd-validation-method

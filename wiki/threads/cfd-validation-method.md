@@ -1,5 +1,5 @@
 ---
-title: Thread — Integral validation technique for CFD/RANS models
+title: CFD validation (integral technique)
 type: thread
 threads:
   - cfd-validation-method

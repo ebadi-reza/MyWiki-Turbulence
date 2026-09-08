@@ -1,5 +1,5 @@
 ---
-title: Ebadi (2016) — PhD Dissertation (UNH)
+title: Ebadi 2016 — PhD dissertation (UNH)
 type: source
 threads:
   - non-equilibrium-pulsatile-flow

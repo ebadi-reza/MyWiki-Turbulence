@@ -1,5 +1,5 @@
 ---
-title: Triple integral identity (exact integral method for wall fluxes)
+title: Triple integral identity
 type: concept
 threads:
   - wall-heat-flux-experimental
@@ -27,9 +27,12 @@ Integrating to an arbitrary height `y_t` (`z_t` in some papers' coordinates), bo
 fluxes split into I (mean profile) + II (turbulent flux) + III (total-flux gradient):
 
 **Wall shear stress (momentum side):**
-$$\tau_w = \frac{2\mu}{y_t^2}\!\int_0^{y_t}\! U\,dy
+
+$$
+\tau_w = \frac{2\mu}{y_t^2}\!\int_0^{y_t}\! U\,dy
 - \frac{2\rho}{y_t^2}\!\int_0^{y_t}\!(y_t-y)\,\overline{u'v'}\,dy
-- \frac{\rho}{y_t^2}\!\int_0^{y_t}\!(y_t-y)^2\frac{\partial}{\partial y}\!\Big(\nu\frac{\partial U}{\partial y}-\overline{u'v'}\Big)dy$$
+- \frac{\rho}{y_t^2}\!\int_0^{y_t}\!(y_t-y)^2\frac{\partial}{\partial y}\!\Big(\nu\frac{\partial U}{\partial y}-\overline{u'v'}\Big)dy
+$$
 
 **Wall heat flux (thermal side):** the same structure applied to the energy equation (see [[2015-ebadi-ijhmt]]), giving the `q″_w` / [[stanton-number|St]] expression.
 

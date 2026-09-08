@@ -1,5 +1,5 @@
 ---
-title: Uniform temperature zones & thermal fissures (UTZ/TF)
+title: Uniform temperature zones (UTZ/TF)
 type: concept
 threads:
   - high-Re-analytical-modeling

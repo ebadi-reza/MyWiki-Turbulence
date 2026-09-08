@@ -46,6 +46,9 @@ jobs:
           sed -i 's|pageTitle: *"[^"]*"|pageTitle: "Reza Ebadi · Wall-Bounded Turbulence \& Heat Transfer"|' quartz.config.ts
           sed -i 's|baseUrl: *"[^"]*"|baseUrl: "ebadi-reza.github.io/MyWiki-Turbulence"|' quartz.config.ts
 
+      - name: Apply custom styles
+        run: cp repo/.quartz/custom.scss quartz/quartz/styles/custom.scss
+
       - name: Build site from wiki/
         working-directory: quartz
         run: npx quartz build --directory ../repo/wiki --output public

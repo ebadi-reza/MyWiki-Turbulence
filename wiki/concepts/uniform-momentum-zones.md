@@ -1,5 +1,5 @@
 ---
-title: Uniform momentum zones & vortical fissures (UMZ/VF)
+title: Uniform momentum zones (UMZ/VF)
 type: concept
 threads:
   - high-Re-analytical-modeling

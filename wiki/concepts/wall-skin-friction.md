@@ -13,7 +13,11 @@ updated: 2026-09-08
 # Wall skin friction
 
 **Definition.** The **wall shear stress** is the local tangential surface force per unit area from friction between a wall-bounded flow and its surface:
-$$\tau_w = \mu\left.\frac{\partial u}{\partial y}\right|_{y=0}$$
+
+$$
+\tau_w = \mu\left.\frac{\partial u}{\partial y}\right|_{y=0}
+$$
+
 Non-dimensionalized as the **skin-friction coefficient** `C_f = τ_w/(½ρU₀²)`, and the source of the **friction velocity** `u_τ = √(τ_w/ρ)` — the primary velocity scale for wall turbulence (the
 momentum analogue of [[wall-heat-flux|wall heat flux]] and [[stanton-number|Stanton number]]).
 

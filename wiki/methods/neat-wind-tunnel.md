@@ -1,5 +1,5 @@
 ---
-title: NEAT wind tunnel & thermal wall plate (apparatus)
+title: NEAT wind tunnel & thermal wall plate
 type: method
 threads:
   - experimental-turbulence-measurement

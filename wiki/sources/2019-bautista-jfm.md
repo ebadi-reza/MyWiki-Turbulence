@@ -1,5 +1,5 @@
 ---
-title: Cuevas Bautista, Ebadi, White, Chini & Klewicki (2019) — A uniform momentum zone–vortical fissure model of the turbulent boundary layer
+title: Cuevas Bautista 2019 — UMZ/VF model (JFM)
 type: source
 threads:
   - high-Re-analytical-modeling

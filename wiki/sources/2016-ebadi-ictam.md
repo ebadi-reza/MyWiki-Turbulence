@@ -1,5 +1,5 @@
 ---
-title: Ebadi, White, Pond & Dubief (2016) — Transition to turbulence in reciprocating channel flow (ICTAM)
+title: Ebadi 2016 — Reciprocating transition (ICTAM)
 type: source
 threads:
   - non-equilibrium-pulsatile-flow
@@ -22,8 +22,12 @@ DNS study of **reciprocating (oscillatory, zero-mean) channel flow** aimed at un
   zero mean velocity: accelerate → decelerate → reverse, repeated.
 - Similarity variable: [[stokes-reynolds-number|Stokes Reynolds number]] `Re_s = U_m l_s/ν`, with Stokes-layer thickness `l_s ≡ √(2ν/ω)` and `U_m` the amplitude of the cross-sectional average velocity.
 - Phase-averaged momentum equation (Eq. 1):
-  $$-\frac{\partial U}{\partial t} + \frac{1}{\rho}\cos(\omega t)
-  + \nu\frac{\partial^2 U}{\partial y^2} + \frac{\partial(-\overline{u'v'})}{\partial y} = 0$$
+
+$$
+-\frac{\partial U}{\partial t} + \frac{1}{\rho}\cos(\omega t)
+  + \nu\frac{\partial^2 U}{\partial y^2} + \frac{\partial(-\overline{u'v'})}{\partial y} = 0
+$$
+
   terms (i) temporal acceleration, (ii) oscillatory pressure gradient, (iii) viscous, (iv) [[turbulent-inertia|turbulent inertia]] (Reynolds-stress gradient).
 
 ## Key results / numbers (cited to this paper)

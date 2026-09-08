@@ -1,5 +1,5 @@
 ---
-title: Reynolds analogy & the turbulent Prandtl number
+title: Reynolds analogy & turbulent Prandtl number
 type: concept
 threads:
   - wall-heat-flux-experimental
@@ -15,8 +15,12 @@ updated: 2026-09-08
 ## Definition
 
 The **Reynolds analogy** assumes that turbulent transport of momentum and of heat are similar, so the turbulent heat flux can be tied to the turbulent momentum flux through a single **turbulent Prandtl number**
-$$Pr_T = \frac{\nu_T}{\alpha_T} = \frac{\overline{u'w'}\,(\partial\Theta/\partial z)}
-{\overline{w'\theta'}\,(\partial U/\partial z)}$$
+
+$$
+Pr_T = \frac{\nu_T}{\alpha_T} = \frac{\overline{u'w'}\,(\partial\Theta/\partial z)}
+{\overline{w'\theta'}\,(\partial U/\partial z)}
+$$
+
 where `ν_T` is the turbulent (eddy) viscosity and `α_T` the turbulent thermal diffusivity.
 In RANS, the heat-flux closure `−w'θ' = (ν_T/Pr_T)·∂Θ/∂z` (eddy-diffusivity) is exactly this analogy, and `Pr_T` is usually taken **constant** (commonly `Pr_T ≈ 0.9`).
 

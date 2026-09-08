@@ -13,7 +13,11 @@ updated: 2026-09-08
 **Definition.** The wall heat flux `q″_w` is the local power per unit area transferred between a fluid and a bounding wall. It is the primary scaling variable for thermal boundary-layer flows and a stringent measure for verifying turbulence heat-transfer models.
 
 At the wall the flux is molecular (no-slip → no turbulent transport at `y=0`):
-$$q''_w = -k_f\left.\frac{\partial \Phi}{\partial y}\right|_{w}$$
+
+$$
+q''_w = -k_f\left.\frac{\partial \Phi}{\partial y}\right|_{w}
+$$
+
 where `k_f` is the fluid thermal conductivity and `Φ` is the mean temperature.
 
 ## Why it matters

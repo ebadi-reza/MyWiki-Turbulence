@@ -1,5 +1,5 @@
 ---
-title: Adverse-pressure-gradient TBL & the inertial sublayer
+title: Adverse-pressure-gradient TBL
 type: concept
 threads:
   - high-Re-analytical-modeling
@@ -23,10 +23,14 @@ updated: 2026-09-08
 ## Mean momentum balance (4 terms)
 
 For a modest-β APG TBL the inner-normalized MMB is
-$$\underbrace{\frac{\partial^2 U^+}{\partial y^{+2}}}_{VF}
+
+$$
+\underbrace{\frac{\partial^2 U^+}{\partial y^{+2}}}_{VF}
 + \underbrace{\frac{\partial(-\overline{uv}^+)}{\partial y^+}}_{TI}
 + \underbrace{\Big[-U^+\tfrac{\partial U^+}{\partial x^+}-V^+\tfrac{\partial U^+}{\partial y^+}\Big]}_{MI}
-+ \underbrace{U_\infty^+\tfrac{\partial U_\infty^+}{\partial x^+}}_{PG} = 0$$
++ \underbrace{U_\infty^+\tfrac{\partial U_\infty^+}{\partial x^+}}_{PG} = 0
+$$
+
 — **four terms** (VF viscous, TI [[turbulent-inertia]], MI mean inertia, PG pressure gradient), vs three for ZPG/channel (see [[four-layer-structure]]). [source]
 
 ## Inertial-sublayer findings (Romero et al. 2022)

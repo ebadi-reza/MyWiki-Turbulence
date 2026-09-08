@@ -16,7 +16,11 @@ updated: 2026-09-08
 ## Decomposition
 
 Triple (Hussain–Reynolds) decomposition of any quantity `A`:
-$$A(y,t) = \overline{A}(y) + \tilde{A}(y,t) + A'(y,t)$$
+
+$$
+A(y,t) = \overline{A}(y) + \tilde{A}(y,t) + A'(y,t)
+$$
+
 with `⟨A⟩ = Ā + Ã` the phase (ensemble) average, `Ā` the time/cycle average, `Ã` the
 **perturbation** (oscillatory / coherent) component, and `A'` the turbulent fluctuation. The time-averaged mean flow is (mostly) independent of forcing frequency, so `Ã` is the flow's **response to the imposed periodic forcing**. [source: [[2016-ebadi-thesis]]]
 

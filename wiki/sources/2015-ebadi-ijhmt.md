@@ -1,5 +1,5 @@
 ---
-title: Ebadi, Mehdi & White (2015) — An exact integral method to evaluate wall heat flux
+title: Ebadi 2015 — Wall heat flux integral method (IJHMT)
 type: source
 threads:
   - wall-heat-flux-experimental
@@ -21,9 +21,11 @@ Presents a mathematically **exact** integral method to determine the wall heat f
 
 For steady, 2D, incompressible turbulent flow (neglecting viscous-dissipation heating), the RANS energy equation is integrated **thrice** in `y` from the wall to an arbitrary height `y_t`. The key move is replacing the lumped streamwise-gradient term `G_x` with its exact wall-normal-gradient equivalent (`G_x = ∂/∂y(α ∂Φ/∂y − v'φ')`). Result:
 
-$$\frac{q''_w}{\rho C_p} = \frac{1}{y_t^2}\left[2\alpha\int_0^{y_t}(\Phi_w-\Phi)\,dy
+$$
+\frac{q''_w}{\rho C_p} = \frac{1}{y_t^2}\left[2\alpha\int_0^{y_t}(\Phi_w-\Phi)\,dy
 + 2\int_0^{y_t}(y_t-y)\,\overline{v'\phi'}\,dy
-+ \int_0^{y_t}(y_t-y)^2\frac{\partial}{\partial y}\!\left(\alpha\frac{\partial\Phi}{\partial y}-\overline{v'\phi'}\right)dy\right]$$
++ \int_0^{y_t}(y_t-y)^2\frac{\partial}{\partial y}\!\left(\alpha\frac{\partial\Phi}{\partial y}-\overline{v'\phi'}\right)dy\right]
+$$
 
 Only wall-normal profiles of **mean temperature** `Φ` and **turbulent heat flux** `v'φ'` at **one** streamwise location, up to arbitrary height `y_t`, are needed. Normalizing by `δ`, `U∞`, and `(Φ_w − Φ∞)` gives the Stanton-number form (Eq. 4) with three additive contributions:
 

@@ -1,5 +1,5 @@
 ---
-title: Thread — Analytical modeling of high-Reynolds-number wall turbulence
+title: High-Re analytical modeling
 type: thread
 threads:
   - high-Re-analytical-modeling

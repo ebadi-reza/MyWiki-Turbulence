@@ -1,5 +1,5 @@
 ---
-title: Romero, Zimmerman, Philip, White & Klewicki (2022) — Properties of the inertial sublayer in APG turbulent boundary layers
+title: Romero 2022 — APG inertial sublayer (JFM)
 type: source
 threads:
   - wind-tunnel-ramp

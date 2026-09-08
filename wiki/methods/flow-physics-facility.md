@@ -1,5 +1,5 @@
 ---
-title: Flow Physics Facility (FPF) & the PG ramp (apparatus)
+title: Flow Physics Facility & PG ramp
 type: method
 threads:
   - wind-tunnel-ramp

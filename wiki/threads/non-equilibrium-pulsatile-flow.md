@@ -1,5 +1,5 @@
 ---
-title: Thread — Non-equilibrium & pulsatile turbulent flow
+title: Non-equilibrium & pulsatile flow
 type: thread
 threads:
   - non-equilibrium-pulsatile-flow

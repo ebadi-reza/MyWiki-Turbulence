@@ -1,5 +1,5 @@
 ---
-title: Anisotropy invariant map (Lumley–Newman)
+title: Anisotropy invariant map
 type: method
 threads:
   - non-equilibrium-pulsatile-flow
@@ -12,7 +12,11 @@ updated: 2026-09-08
 # Anisotropy invariant map (AIM)
 
 **What it is.** A way to characterize the *shape* of the turbulence — how fluctuating energy is distributed among the three velocity components — independent of its magnitude (Lumley & Newman 1977). Built from the Reynolds-stress **anisotropy tensor**
-$$b_{ij} = \frac{\langle u'_i u'_j\rangle}{q^2} - \frac{1}{3}\delta_{ij}, \qquad q^2=\langle u'_i u'_i\rangle$$
+
+$$
+b_{ij} = \frac{\langle u'_i u'_j\rangle}{q^2} - \frac{1}{3}\delta_{ij}, \qquad q^2=\langle u'_i u'_i\rangle
+$$
+
 subtracting the isotropic part leaves the departure from isotropy. Its invariants are `I_a = 0`, `II_a = b_{ij}b_{ji}`, `III_a = b_{ij}b_{jk}b_{ki}`. Plotting **II_a vs III_a** places every realizable state inside the **Lumley triangle**:
 
 - **origin** → 3-component isotropic turbulence (spherical stress tensor);

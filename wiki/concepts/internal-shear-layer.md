@@ -1,5 +1,5 @@
 ---
-title: Internal shear layer (reciprocating/pulsatile transition)
+title: Internal shear layer
 type: concept
 threads:
   - non-equilibrium-pulsatile-flow

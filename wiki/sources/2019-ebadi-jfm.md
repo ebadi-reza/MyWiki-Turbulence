@@ -1,5 +1,5 @@
 ---
-title: Ebadi, White, Pond & Dubief (2019) — Mean dynamics and transition to turbulence in oscillatory channel flow
+title: Ebadi 2019 — Oscillatory-channel transition (JFM)
 type: source
 threads:
   - non-equilibrium-pulsatile-flow
@@ -29,10 +29,12 @@ in oscillatory channel flow (OCF)** — purely oscillatory / reciprocating flow 
 
 ## Mean momentum balance (inner-normalized)
 
-$$\underbrace{\frac{d\langle P\rangle^+}{dx^+}}_{A^*}
+$$
+\underbrace{\frac{d\langle P\rangle^+}{dx^+}}_{A^*}
 +\underbrace{\frac{\partial^2\langle u\rangle^+}{\partial y^{+2}}}_{B^*}
 +\underbrace{\frac{\partial\langle -u'v'\rangle^+}{\partial y^+}}_{C^*}
--\underbrace{\frac{\partial\langle u\rangle^+}{\partial t^+}}_{D^*}=0$$
+-\underbrace{\frac{\partial\langle u\rangle^+}{\partial t^+}}_{D^*}=0
+$$
 
 A* pressure gradient, B* viscous force, C* [[turbulent-inertia]], D* local acceleration (unsteady term). The four-term balance (vs three for steady) is why OCF needs richer analysis than the single ratio `B*/C*`.
 

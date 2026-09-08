@@ -1,5 +1,5 @@
 ---
-title: Wall shear stress vs heat flux modulation frequency in reciprocating flow
+title: Wall-flux modulation frequency (τ_w vs 2ω)
 type: analysis
 threads:
   - non-equilibrium-pulsatile-flow
@@ -18,16 +18,32 @@ updated: 2026-09-08
 ## Derivation (centerline, leading order)
 
 Near the channel centerline, viscous forces and advection are negligible, so the momentum balance reduces to
-$$\frac{\partial u}{\partial t} = -\frac{1}{\rho}\frac{\partial P}{\partial x}$$
+
+$$
+\frac{\partial u}{\partial t} = -\frac{1}{\rho}\frac{\partial P}{\partial x}
+$$
+
 With a cosinusoidal pressure gradient `∂P/∂x = cos(ωt)`, integrating gives
-$$u(t) = C_1 \sin(\omega t)$$
+
+$$
+u(t) = C_1 \sin(\omega t)
+$$
+
 so velocity — and hence **wall shear stress — modulates at `ω`**.
 
 The thermal transport equation near the centerline reduces to
-$$\frac{\partial \Theta}{\partial t} + u\frac{\partial \Theta}{\partial x} = 0$$
+
+$$
+\frac{\partial \Theta}{\partial t} + u\frac{\partial \Theta}{\partial x} = 0
+$$
+
 Assuming `∂Θ/∂x` itself modulates with the forcing frequency, the advective product `u·∂Θ/∂x`
 carries a `sin(ωt)·(forcing)` structure that integrates to
-$$T(t) = C_2 \cos(2\omega t)$$
+
+$$
+T(t) = C_2 \cos(2\omega t)
+$$
+
 so temperature — and hence **wall heat flux / Nu — modulates at `2ω`**. [source]
 
 ## Why it matters

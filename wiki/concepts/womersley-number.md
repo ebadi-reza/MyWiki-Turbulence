@@ -15,15 +15,27 @@ updated: 2026-09-08
 
 A dimensionless number for oscillatory / pulsatile flow measuring the **unsteadiness** of
 the flow relative to viscous diffusion:
-$$Wo = h\sqrt{\frac{\omega}{\nu}}$$
+
+$$
+Wo = h\sqrt{\frac{\omega}{\nu}}
+$$
+
 where `h` is a characteristic length (channel half-height), `ω = 2π/T` the angular frequency, and `ν` kinematic viscosity. Its square characterizes the ratio of the **diffusion time scale** `h²/ν` to the **oscillation time scale** `ω⁻¹`:
-$$Wo^2 \sim \frac{h^2/\nu}{\omega^{-1}}$$
+
+$$
+Wo^2 \sim \frac{h^2/\nu}{\omega^{-1}}
+$$
+
 Large `Wo` → oscillation fast compared to viscous diffusion (thin oscillatory boundary layer, plug-like core); small `Wo` → quasi-steady.
 
 ## Relation to the Stokes Reynolds number
 
 With peak Reynolds number `Re_p = 2U_m h/ν` and [[stokes-reynolds-number|`Re_s = U_m l_s/ν`]] (`l_s = √(2ν/ω)`):
-$$\frac{Re_p}{Wo} = \sqrt{2}\,Re_s$$
+
+$$
+\frac{Re_p}{Wo} = \sqrt{2}\,Re_s
+$$
+
 So `Wo` and `Re_p` together fix `Re_s`; increasing `Re_s` (toward turbulence) means **decreasing `Wo` and/or increasing `Re_p`** [[2017-pond-compfluids]]. [source]
 
 ## Why it matters

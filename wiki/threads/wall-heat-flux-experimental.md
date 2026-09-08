@@ -1,5 +1,5 @@
 ---
-title: Thread — Experimental determination of wall heat flux
+title: Wall heat flux (experimental)
 type: thread
 threads:
   - wall-heat-flux-experimental

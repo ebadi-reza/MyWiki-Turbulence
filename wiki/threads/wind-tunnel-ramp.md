@@ -1,5 +1,5 @@
 ---
-title: Thread — Wind-tunnel ramp (apparatus)
+title: Wind-tunnel ramp (apparatus)
 type: thread
 threads:
   - wind-tunnel-ramp

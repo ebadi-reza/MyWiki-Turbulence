@@ -1,5 +1,5 @@
 ---
-title: Wengrove, Ebadi, White & Foster (2020) — Evaluation of the momentum integral method to determine the wall skin friction in separated flows
+title: Wengrove 2020 — MW-MIM in separated flows (Exp. Fluids)
 type: source
 threads:
   - experimental-turbulence-measurement
@@ -23,9 +23,13 @@ curved surfaces in Cartesian coordinates. See [[wall-skin-friction]].
 ## The method (MW-MIM)
 
 Triple-integrating the 2D RANS streamwise momentum equation to a height `n_t` and replacing the streamwise-gradient term `ρI_x` by `∂τ/∂n − ∂p/∂s` (with `τ/ρ = ν ∂u/∂n − u'v'`) gives (Eq. 3):
-$$\tau_w = \underbrace{\frac{2\mu}{n_t^2}\!\int_0^{n_t}\! u\,dn}_{\text{I}}
+
+$$
+\tau_w = \underbrace{\frac{2\mu}{n_t^2}\!\int_0^{n_t}\! u\,dn}_{\text{I}}
 - \underbrace{\frac{2\rho}{n_t^2}\!\int_0^{n_t}\!(n_t-n)\,\overline{u'v'}\,dn}_{\text{II}}
-- \underbrace{\frac{1}{n_t^2}\!\int_0^{n_t}\!(n_t-n)^2\frac{\partial\tau}{\partial n}\,dn}_{\text{III}}$$
+- \underbrace{\frac{1}{n_t^2}\!\int_0^{n_t}\!(n_t-n)^2\frac{\partial\tau}{\partial n}\,dn}_{\text{III}}
+$$
+
 Same three-term structure as the heat-flux method of [[2015-ebadi-ijhmt]]: I mean velocity, II
 Reynolds shear stress, III total-stress gradient. `s,n` = surface-following (tangent, wall-normal)
 coordinates; for a flat wall `s≡x`, `n≡y`. [source]
@@ -43,7 +47,11 @@ coordinates; for a flat wall `s≡x`, `n≡y`. [source]
   near-wall data must capture **≈35–75%** of the flow-reversal thickness `y_s`  (`y_min ≤ 0.25–0.65 y_s`, dataset/coordinate dependent). [source]
 - **Coordinate system:** on curved walls, surface-following `s–n` is more accurate than Cartesian
   `x–y`; but a **wall-slope correction** recovers `x–y` accuracy without redefining coordinates:
-  $$C_f = \frac{C_{f,xy}}{\cos\alpha}$$
+
+$$
+C_f = \frac{C_{f,xy}}{\cos\alpha}
+$$
+
   where `α` is the local wall slope. Windward-side `x–y` error up to 14% (uncorrected); <3% in the separation/recovery region. [source]
 - **Term contributions** (Marquillie08): **term III (total-stress gradient) dominates** `C_f`
   (≈70–85% on windward side / crest); in the **separation** region terms II and III are large and

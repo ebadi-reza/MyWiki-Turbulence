@@ -1,5 +1,5 @@
 ---
-title: Thread — Experimental measurement of turbulent flow
+title: Experimental turbulence measurement
 type: thread
 threads:
   - experimental-turbulence-measurement

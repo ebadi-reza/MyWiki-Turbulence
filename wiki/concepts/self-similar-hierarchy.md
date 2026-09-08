@@ -1,5 +1,5 @@
 ---
-title: Self-similar hierarchy of the mean equations (Klewicki–Fife–Wei)
+title: Self-similar hierarchy (Klewicki–Fife–Wei)
 type: concept
 threads:
   - high-Re-analytical-modeling

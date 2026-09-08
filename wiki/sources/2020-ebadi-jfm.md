@@ -1,5 +1,5 @@
 ---
-title: Ebadi, Cuevas Bautista, White, Chini & Klewicki (2020) — A heat transfer model of fully developed turbulent channel flow
+title: Ebadi 2020 — UTZ/TF heat-transfer model (JFM)
 type: source
 threads:
   - high-Re-analytical-modeling
@@ -20,9 +20,13 @@ A simple **one-dimensional model of passive-scalar (heat) transport** in high-Re
 ## Model basis
 
 - **Mean scalar transport equation** (uniform heat generation `Q`, isothermal walls), inner-normalized (Eq. 2.3):
-  $$\underbrace{\frac{1}{Pr}\frac{d^2\Theta^+}{dy^{+2}}}_{MD}
+
+$$
+\underbrace{\frac{1}{Pr}\frac{d^2\Theta^+}{dy^{+2}}}_{MD}
   + \underbrace{\frac{dT^+_\theta}{dy^+}}_{GT}
-  + \underbrace{\frac{1}{\delta^+}}_{HG} = 0$$
+  + \underbrace{\frac{1}{\delta^+}}_{HG} = 0
+$$
+
   MD molecular diffusion, GT gradient of wall-normal turbulent heat flux (`T⁺_θ=−v'θ'⁺`), HG heat generation. Analogous to the mean momentum equation. [source]
 - Zhou et al. (2017) showed this balance has a **four-layer structure** (ratio MD/GT), analogous to [[four-layer-structure|Wei et al. (2005)]] for momentum. [source]
 - **Self-similar hierarchy:** layer width `W⁺_θ = (−d²Θ⁺/dy⁺²)^{−1/2}`; in the inertial (layer IV) domain `W⁺_θ` is linear in `y⁺`, `dW⁺_θ/dy⁺ = 1/φ_θc`, with scalar von Kármán constant `κ_θ = 1/φ²_θc` → a scalar [[log-law|log law]]. See [[self-similar-hierarchy]]. [source]
