@@ -1,0 +1,70 @@
+name: Deploy wiki to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout wiki content
+        uses: actions/checkout@v4
+        with:
+          path: repo
+          fetch-depth: 0  # Quartz uses git history for "last edited" dates
+
+      - name: Checkout Quartz (v4)
+        uses: actions/checkout@v4
+        with:
+          repository: jackyzha0/quartz
+          ref: v4
+          path: quartz
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Quartz dependencies
+        working-directory: quartz
+        run: npm ci
+
+      - name: Personalize site config
+        working-directory: quartz
+        run: |
+          sed -i 's|pageTitle: *"[^"]*"|pageTitle: "Reza Ebadi · Wall-Bounded Turbulence \& Heat Transfer"|' quartz.config.ts
+          sed -i 's|baseUrl: *"[^"]*"|baseUrl: "ebadi-reza.github.io/MyWiki-Turbulence"|' quartz.config.ts
+
+      - name: Build site from wiki/
+        working-directory: quartz
+        run: npx quartz build --directory ../repo/wiki --output public
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: quartz/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
