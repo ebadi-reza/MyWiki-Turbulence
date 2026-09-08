@@ -1,25 +1,20 @@
-// Custom overrides for the published site.
-// Copied into Quartz's quartz/styles/custom.scss by the deploy workflow.
+// Custom overrides — appended to Quartz's base stylesheet by the deploy workflow
+// (appending guarantees the rules are bundled regardless of import config).
 
-// Clearer separation between entries in the sidebars
-// (Explorer file tree, Table of Contents, and Backlinks) so consecutive
-// items — especially ones whose titles wrap to two lines — read distinctly.
-.sidebar {
-  li {
-    margin-block: 0.35rem;
-    line-height: 1.3;
-  }
-
-  // Backlinks entries tend to be longer titles: give them a bit more room.
-  .backlinks li {
-    margin-block: 0.5rem;
-  }
+/* Sidebars (Explorer, Table of Contents, Backlinks): make consecutive
+   entries read as clearly separate items. */
+.sidebar li {
+  margin-block: 0.5rem;
+  line-height: 1.3;
 }
 
-// Explorer folder groups: a touch of breathing room between sections.
-.explorer {
-  & > ul > li,
-  ul.overflow > li {
-    margin-block: 0.3rem;
-  }
+/* Faint divider between Backlinks entries (their titles are the longest). */
+.sidebar .backlinks li:not(:last-child) {
+  border-bottom: 1px solid var(--lightgray);
+  padding-bottom: 0.5rem;
+}
+
+/* Explorer: a little extra room between file/folder entries. */
+.explorer li {
+  margin-block: 0.45rem;
 }

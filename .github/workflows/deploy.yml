@@ -47,7 +47,7 @@ jobs:
           sed -i 's|baseUrl: *"[^"]*"|baseUrl: "ebadi-reza.github.io/MyWiki-Turbulence"|' quartz.config.ts
 
       - name: Apply custom styles
-        run: cp repo/.quartz/custom.scss quartz/quartz/styles/custom.scss
+        run: cat repo/.quartz/custom.scss >> quartz/quartz/styles/base.scss
 
       - name: Build site from wiki/
         working-directory: quartz
