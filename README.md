@@ -1,8 +1,6 @@
 # Wall-Bounded Turbulence & Heat Transfer — Knowledge Wiki
 
-A personal, interlinked knowledge base reconstructing Reza Ebadi's research in experimental
-fluid mechanics — turbulent boundary layers, heat transfer, and instrumentation — built with
-the "LLM Wiki" pattern (immutable sources in, a maintained set of interlinked Markdown pages out).
+A personal, interlinked knowledge base reconstructing Reza Ebadi's research in  fluid mechanics — turbulent boundary layers, heat transfer, and instrumentation — built with the "LLM Wiki" pattern (immutable sources in, a maintained set of interlinked Markdown pages out).
 
 ## Layout
 
