@@ -1,0 +1,17 @@
+# --- Source documents (raw/) ---
+# Large PDFs (~40 MB) and publisher-copyright material. Kept local and OUT of
+# version control so the repo stays lean and safe to publish (e.g. a website).
+# raw/ is immutable source-of-truth you curate; back it up separately.
+# To version sources in a PRIVATE repo instead, delete the next line.
+raw/
+
+# --- Obsidian per-machine state ---
+# Workspace/graph/cache churn and are machine-specific. Delete this line if you
+# want your Obsidian settings versioned with the vault.
+.obsidian/
+
+# --- macOS / editor cruft ---
+.DS_Store
+**/.DS_Store
+*.swp
+.vscode/
