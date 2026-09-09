@@ -31,17 +31,17 @@ In **steady** turbulent channel/ZPG flow there is a single near-wall **momentum 
 
 ### Centreline momentum source (unique to OCF)
 
-In oscillatory channel flow a **second momentum source appears near the channel centreline** during acceleration — the "centreline momentum source", alongside the usual "wall momentum source" (the negative region between them being the **"interior momentum sink"**) [[2019-ebadi-jfm]], [[2016-ebadi-thesis]]. When it is of leading order, TI redistributes momentum from the interior to **both** the near-wall and centreline regions. The phase at which the centreline source loses leading-order importance (<10% of the wall source) nearly coincides with the emergence of the [[log-law|log region]] and the [[four-layer-structure]]. [source]
+In oscillatory channel flow a **second momentum source appears near the channel centreline** during acceleration — the "centreline momentum source", alongside the usual "wall momentum source" (the negative region between them being the **"interior momentum sink"**) [[2019-ebadi-jfm]], [[2016-ebadi-thesis]]. When it is of leading order, TI redistributes momentum from the interior to **both** the near-wall and centreline regions. The phase at which the centreline source loses leading-order importance (<10% of the wall source) nearly coincides with the emergence of the [[log-law|log region]] and the [[four-layer-structure]].
 
 ### Quadrant-analysis mechanism
 
-The redistribution is explained by quadrant analysis of `(u',v')` ([[2016-ebadi-thesis]] Ch. 5): Q1 (`u'>0,v'>0`) outward interactions, Q2 (`u'<0,v'>0`) ejections, Q3 (`u'<0,v'<0`) inward interactions, Q4 (`u'>0,v'<0`) sweeps. In canonical flow **ejections + sweeps** (`u'v'<0`) dominate and coincide with the TI source/sink. In some phases of reciprocating flow there are regions of **`u'v'>0`** (Q1/Q3 events), spatially coincident with the interior sink and centreline source — the "outward/inward interactions" that shuttle momentum between them. [source]
+The redistribution is explained by quadrant analysis of `(u',v')` ([[2016-ebadi-thesis]] Ch. 5): Q1 (`u'>0,v'>0`) outward interactions, Q2 (`u'<0,v'>0`) ejections, Q3 (`u'<0,v'<0`) inward interactions, Q4 (`u'>0,v'<0`) sweeps. In canonical flow **ejections + sweeps** (`u'v'<0`) dominate and coincide with the TI source/sink. In some phases of reciprocating flow there are regions of **`u'v'>0`** (Q1/Q3 events), spatially coincident with the interior sink and centreline source — the "outward/inward interactions" that shuttle momentum between them.
 
 ## Why it matters
 
 - A central quantity in the term-balance (Wei et al.) view of wall turbulence — its sign and magnitude define the layer structure.
 - In Reza's reciprocating-flow work ([[2016-ebadi-ictam]], [[2019-ebadi-jfm]]), the
-  explosive growth and wall-normal rearrangement of turbulent inertia — plus the fading of the centreline momentum source — drives the emergence of the [[internal-shear-layer]] and the four-layer structure during transition. [source]
+  explosive growth and wall-normal rearrangement of turbulent inertia — plus the fading of the centreline momentum source — drives the emergence of the [[internal-shear-layer]] and the four-layer structure during transition.
 
 ## Where it appears in Reza's threads
 

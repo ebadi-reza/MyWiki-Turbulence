@@ -29,7 +29,7 @@ The location in the triangle is a **structure fingerprint**. In wall turbulence 
 
 ## Where it appears in Reza's threads
 
-- [[non-equilibrium-pulsatile-flow]] ([[2019-ebadi-jfm]]): the AIM is the diagnostic for the streak cycle — near-wall turbulence moves **toward one-component** as streaks strengthen during acceleration, then **shifts back** at streak breakdown, pinning the onset of the nonlinear development stage. [source]
+- [[non-equilibrium-pulsatile-flow]] ([[2019-ebadi-jfm]]): the AIM is the diagnostic for the streak cycle — near-wall turbulence moves **toward one-component** as streaks strengthen during acceleration, then **shifts back** at streak breakdown, pinning the onset of the nonlinear development stage. ([[2019-ebadi-jfm|source]])
 - Expected to recur in the experimental (PIV) work.
 
 Reference: J.L. Lumley & G.R. Newman, "The return to isotropy of homogeneous turbulence,"

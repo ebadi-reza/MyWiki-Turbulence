@@ -26,9 +26,9 @@ In RANS, the heat-flux closure `−w'θ' = (ν_T/Pr_T)·∂Θ/∂z` (eddy-diffus
 
 ## When it holds / breaks
 
-- **Holds (approximately):** steady equilibrium wall flows — `Pr_T` is roughly constant across the layer ([[2017-pond-compfluids]] Fig. 9 shows `Pr_T≈const` in steady channel flow). [source]
-- **Breaks down:** non-equilibrium flows. In reciprocating channel flow, `Pr_T` computed directly from DNS is **highly variable in both wall-normal position and phase** — it does not approximate a constant [[2017-pond-compfluids]]. [source]
-- **Why:** attributed to (i) intermittent/transitional turbulence and (ii) the unsteady imposed pressure gradient. Per Bradshaw, the analogy can fail under pressure gradients because the **velocity field depends on the pressure field while the temperature field does not** (explicitly). [source]
+- **Holds (approximately):** steady equilibrium wall flows — `Pr_T` is roughly constant across the layer ([[2017-pond-compfluids]] Fig. 9 shows `Pr_T≈const` in steady channel flow).
+- **Breaks down:** non-equilibrium flows. In reciprocating channel flow, `Pr_T` computed directly from DNS is **highly variable in both wall-normal position and phase** — it does not approximate a constant [[2017-pond-compfluids]].
+- **Why:** attributed to (i) intermittent/transitional turbulence and (ii) the unsteady imposed pressure gradient. Per Bradshaw, the analogy can fail under pressure gradients because the **velocity field depends on the pressure field while the temperature field does not** (explicitly). ([[2017-pond-compfluids|source]])
 
 ## Why it matters for Reza's work
 

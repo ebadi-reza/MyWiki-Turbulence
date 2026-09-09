@@ -38,7 +38,7 @@ Removable. The experimental counterpart to the DNS **oscillatory** flow ([[pulsa
 Each plate's feedback loop uses an **SCR + NPN-transistor** circuit that isolates the low-current
 DAQ from the high-current resistive heaters. The SCR conducts on half the AC cycle (≈60 V DC
 effective); the 10 A SCR limit caps the two heaters per plate at ≈7.5 A. Six PCB controller boards
-carry 12 active + 6 spare circuits; **Analog Devices AD594** thermocouple amplifiers give 10 mV/°C; everything sits in a Hammond enclosure box with 5 cooling fans. ([[2016-ebadi-thesis]] Appendix A — effectively the controller user manual.) [source]
+carry 12 active + 6 spare circuits; **Analog Devices AD594** thermocouple amplifiers give 10 mV/°C; everything sits in a Hammond enclosure box with 5 cooling fans. ([[2016-ebadi-thesis]] Appendix A — effectively the controller user manual.)
 
 ## Why it matters
 

@@ -15,9 +15,9 @@ updated: 2026-09-08
 ## Measured properties
 
 - **VF thickness** `f_w/δ ≈ 1.3/√δ⁺` (order `1/√δ⁺`), comparable to the Taylor microscale (~40% of it); theory (Klewicki 2013) supports the `1/√δ⁺` scaling. [source: [[2019-bautista-jfm]]]
-- **Velocity jump** across each fissure is slightly greater than `u_τ`. [source]
+- **Velocity jump** across each fissure is slightly greater than `u_τ`. ([[2019-bautista-jfm|source]])
 - **Number of UMZs** in the inertial region grows ~**logarithmically** with `δ⁺`
-  (de Silva et al. 2016). [source]
+  (de Silva et al. 2016). ([[2019-bautista-jfm|source]])
 
 ## The UMZ/VF model (Cuevas Bautista et al. 2019)
 
@@ -27,11 +27,11 @@ Grounded in the [[self-similar-hierarchy]] from the mean momentum equation; each
 - Build a **master profile**, then **perturb VF positions** (skewed Gaussian `σ=1.6Δy⁺`) with a **momentum-exchange** rule (a VF gains momentum moving wallward, loses it moving outward) → ensemble → statistical moments.
 - Prescriptions: fissure width `f_w⁺=6` (results independent of `f_w⁺≲√δ⁺` in the inertial domain); UMZ velocities from VF-edge averages.
 
-**Validation:** vs Lee & Moser (2015) DNS at δ⁺≈5200 — reproduces mean, variance (inner peak + log decay from `y⁺≈2.6√δ⁺`), skewness, kurtosis, and uniquely the **sub-Gaussian** inertial behavior; indicator function → κ≈0.4. Fails near the wall (`y⁺≲10`, no vortex stretching) and at the edge (wake BC). [source]
+**Validation:** vs Lee & Moser (2015) DNS at δ⁺≈5200 — reproduces mean, variance (inner peak + log decay from `y⁺≈2.6√δ⁺`), skewness, kurtosis, and uniquely the **sub-Gaussian** inertial behavior; indicator function → κ≈0.4. Fails near the wall (`y⁺≲10`, no vortex stretching) and at the edge (wake BC). ([[2019-bautista-jfm|source]])
 
 ## Momentum–vorticity connection
 
-The Reynolds-stress gradient decomposes as `dT/dy = v'ω_z − w'ω_y`. The model's VF repositioning captures the `v'ω_z` term (Taylor vorticity transport): `v'ω_z>0` is a momentum source, `<0` a sink. The wall-normal-stretching `w'ω_y` term (near-wall) is not modelled. [source]
+The Reynolds-stress gradient decomposes as `dT/dy = v'ω_z − w'ω_y`. The model's VF repositioning captures the `v'ω_z` term (Taylor vorticity transport): `v'ω_z>0` is a momentum source, `<0` a sink. The wall-normal-stretching `w'ω_y` term (near-wall) is not modelled. ([[2019-bautista-jfm|source]])
 
 ## Why it matters
 

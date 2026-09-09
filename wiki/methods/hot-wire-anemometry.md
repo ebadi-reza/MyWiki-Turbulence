@@ -21,9 +21,9 @@ high-Reynolds-number wall flows.
   the streamwise `u` and wall-normal `v` velocities simultaneously, plus a **single wire** for `u`
   alone; the redundant single wire reduces the transverse-velocity sensitivity to per-sensor
   calibration drift (Morrill-Winter et al. 2015). 5 μm gold-plated tungsten wires; single-wire
-  `L⁺=17.6`, ×-array projected length `L⁺/√2`. [source]
+  `L⁺=17.6`, ×-array projected length `L⁺/√2`. ([[2022-romero-jfm|source]])
 - Speed response calibrated in the freestream before/after each profile; angular response via an articulating jet.
-- **Friction velocity `u_τ`** obtained from Preston tubes and cross-checked with a matched-profile (Clauser-chart-like) method — agreement within ±8% (and ±2.3% vs a corrected Clauser method). [source]
+- **Friction velocity `u_τ`** obtained from Preston tubes and cross-checked with a matched-profile (Clauser-chart-like) method — agreement within ±8% (and ±2.3% vs a corrected Clauser method). ([[2022-romero-jfm|source]])
 - Sample interval reported as `Δt_s⁺ = (1/f_s) u_τ²/ν`.
 
 ## Why it matters

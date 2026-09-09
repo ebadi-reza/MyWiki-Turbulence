@@ -21,11 +21,11 @@ in oscillatory channel flow (OCF)** — purely oscillatory / reciprocating flow 
 ## Setup
 
 - Cartesian domain, **canonical convention** (x streamwise, **y wall-normal**, z spanwise);
-  cosinusoidal pressure-gradient forcing, net-zero flow rate per period. [source]
+  cosinusoidal pressure-gradient forcing, net-zero flow rate per period.
 - Three DNS: **Re_s=648** (T=30, Wo=20.5), **801** (T=30, Wo=25.1), **1009** (T=40, Wo=17.7).
   Finite-difference code (Dubief et al. 2005), up to 384³; phase-averaged over 10 periods,
   32 phases/period (48 for Re_s=801). Steady turbulent channel at Reτ=1000 (JHTDB) as
-  reference. [source] (Uses `α` for [[womersley-number|Womersley]], per that paper's usage.)
+  reference. (Uses `α` for [[womersley-number|Womersley]], per that paper's usage.)
 
 ## Mean momentum balance (inner-normalized)
 
@@ -40,17 +40,17 @@ A* pressure gradient, B* viscous force, C* [[turbulent-inertia]], D* local accel
 
 ## Key results / numbers (cited to this paper)
 
-- **Critical Re_s ladder** (compiled from literature): `I→II≈100`, `II→III≈500`, **`III→IV≈750`**, `IV→V≈3460`. [source]
+- **Critical Re_s ladder** (compiled from literature): `I→II≈100`, `II→III≈500`, **`III→IV≈750`**, `IV→V≈3460`.
 - **Transition criterion:** the nonlinear development stage (streak breakdown) must begin
-  during **acceleration** → happens for Re_s=801, 1009; at Re_s=648 it begins during deceleration (too late) so the flow stays weakly transitional. [source]
-- **Transient log law** at the two higher Re_s during early deceleration (`⟨u⟩⁺=(1/κ)ln y⁺+B`): at Re_s=1009, `1/κ→≈2.5` (κ≈0.4) for `π/2≲φ≲11π/16`; **B always < 5.2** and depends on (Re_s,φ). Steady reference: κ≈0.4, B≈5.2. Slope from the indicator function `y⁺ d⟨u⟩⁺/dy⁺`. See [[log-law]]. [source]
+  during **acceleration** → happens for Re_s=801, 1009; at Re_s=648 it begins during deceleration (too late) so the flow stays weakly transitional.
+- **Transient log law** at the two higher Re_s during early deceleration (`⟨u⟩⁺=(1/κ)ln y⁺+B`): at Re_s=1009, `1/κ→≈2.5` (κ≈0.4) for `π/2≲φ≲11π/16`; **B always < 5.2** and depends on (Re_s,φ). Steady reference: κ≈0.4, B≈5.2. Slope from the indicator function `y⁺ d⟨u⟩⁺/dy⁺`. See [[log-law]].
 - **Second momentum source:** OCF has both a **wall momentum source** and a **centreline momentum source** in the turbulent-inertia profile (the latter unique to OCF, dominant in
   early acceleration). The phase where the centreline source loses leading-order importance
-  ≈ the phase where the log region emerges. [source]
-- **Internal layer** centred at `y/l_s≈1` (edge of Stokes layer): locally accelerating on the wallward side, decelerating on the other; seen as a "kink" in the local-acceleration profile for the two higher Re_s (absent at Re_s=648). [source]
-- **Four-layer structure** (ratio `B*/C*`) emerges for Re_s=801, 1009 at exactly the phases with steady-like turbulence; never for Re_s=648. [source]
-- **Anisotropy invariant map** (Lumley–Newman): near-wall turbulence → one-component during acceleration (streaks), shifts back at streak breakdown. See [[anisotropy-invariant-map]]. [source]
-- **Co-spectra** of the Reynolds-stress gradient `k_x⁺ ∂Φ⁺_{−u'v'}/∂y⁺` track the wall momentum source moving down/left (to smaller λ⁺, toward the wall) at the onset of the  nonlinear development stage. [source]
+  ≈ the phase where the log region emerges.
+- **Internal layer** centred at `y/l_s≈1` (edge of Stokes layer): locally accelerating on the wallward side, decelerating on the other; seen as a "kink" in the local-acceleration profile for the two higher Re_s (absent at Re_s=648).
+- **Four-layer structure** (ratio `B*/C*`) emerges for Re_s=801, 1009 at exactly the phases with steady-like turbulence; never for Re_s=648.
+- **Anisotropy invariant map** (Lumley–Newman): near-wall turbulence → one-component during acceleration (streaks), shifts back at streak breakdown. See [[anisotropy-invariant-map]].
+- **Co-spectra** of the Reynolds-stress gradient `k_x⁺ ∂Φ⁺_{−u'v'}/∂y⁺` track the wall momentum source moving down/left (to smaller λ⁺, toward the wall) at the onset of the  nonlinear development stage.
 
 ## Notation mapping (this paper vs wiki canon)
 

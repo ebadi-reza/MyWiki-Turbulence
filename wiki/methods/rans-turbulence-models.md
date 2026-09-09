@@ -23,18 +23,18 @@ heat flux `−u'ᵢθ'` supplied by a **closure model**. Cheap and widely used, 
 
 "Low-Re" here means **no wall functions** — the near-wall region is resolved directly (first grid point at `z⁺≤1`). In [[2017-pond-compfluids]]:
 
-- **Launder–Sharma (LS) k-ε** — transports `k` and `ε`; requires near-wall **damping  functions** (`f_μ`, `f₂`) to avoid unrealistic near-wall values. Constants: `σ_k=1, σ_ε=1.3, C_ε1=1.44, C_ε2=1.92, C_μ=0.09`. [source]
+- **Launder–Sharma (LS) k-ε** — transports `k` and `ε`; requires near-wall **damping  functions** (`f_μ`, `f₂`) to avoid unrealistic near-wall values. Constants: `σ_k=1, σ_ε=1.3, C_ε1=1.44, C_ε2=1.92, C_μ=0.09`. ([[2017-pond-compfluids|source]])
 - **v²-f (Durbin)** — adds transport of the wall-normal velocity variance (`v²`/`w²` in the
   paper's coordinates) and an elliptic-relaxation function `f`; the wall-normal variance
-  provides correct near-wall damping, so **no damping functions are needed**. [source]
+  provides correct near-wall damping, so **no damping functions are needed**. ([[2017-pond-compfluids|source]])
 
 Both were **deliberately chosen as imperfect** for reciprocating flow, to showcase what the
 [[cfd-validation-method|integral validation technique]] reveals that the standard technique misses.
 
 ## Known difficulties for non-equilibrium flow
 
-- EVMs assume **stress and strain in phase**, but for [[womersley-number|`Wo`≳0.1]] there is a stress–strain phase difference. [source]
-- Transition / intermittency is not reliably captured by conventional RANS. [source]
+- EVMs assume **stress and strain in phase**, but for [[womersley-number|`Wo`≳0.1]] there is a stress–strain phase difference. ([[2017-pond-compfluids|source]])
+- Transition / intermittency is not reliably captured by conventional RANS. ([[2017-pond-compfluids|source]])
 
 ## Where it appears in Reza's threads
 

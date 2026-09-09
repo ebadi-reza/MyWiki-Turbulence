@@ -28,29 +28,29 @@ turbulent boundary layers** at high Reynolds number (δ⁺≈7100–7770, modest
 ## The ramp & facility (thread 6 source)
 
 - Measurements in the **Flow Physics Facility (FPF)**, UNH — a ZPG wind tunnel, **2.8 m × 6 m**
-  cross-section, **72 m fetch** (Vincenti et al. 2013). [source]
+  cross-section, **72 m fetch** (Vincenti et al. 2013).
 - A **ramp structure** (based on Aubertine & Eaton 2005) was **installed on the ceiling** (not the
-  floor); measurements taken on the flat floor → **PG effects without wall curvature**. [source]
-- Geometry: FPG region (height −0.4 m over 3.1 m) → ZPG relaxation (~7.0 m) → **APG ramp (height +0.5 m over 5.3 m)** → ZPG downstream (~20 m). Ramp insert ~15 m; APG influence −0.5 ≲ x_scaled ≲ 1.6 (x_scaled normalized by the 5.3 m APG length). [source]
+  floor); measurements taken on the flat floor → **PG effects without wall curvature**.
+- Geometry: FPG region (height −0.4 m over 3.1 m) → ZPG relaxation (~7.0 m) → **APG ramp (height +0.5 m over 5.3 m)** → ZPG downstream (~20 m). Ramp insert ~15 m; APG influence −0.5 ≲ x_scaled ≲ 1.6 (x_scaled normalized by the 5.3 m APG length).
 - **Built by A. Ebadi (Reza) & C.J. Klewicki at UNH** (acknowledgement — C.J. Klewicki is J.
   Klewicki's son, *not* the author Joseph C. Klewicki). See [[wind-tunnel-ramp]].
 
 ## Setup
 
-- **PG parameters:** Clauser `β = tΔ/tPG = (δ*/τ_w) dP/dx`; acceleration parameter `K = (ν/U∞²)dU∞/dx`; Rotta–Clauser length `Δ = ∫u_τ⁻¹(U∞−U)dy ≈ 3.5δ`; `Re_Δ ≡ Δu_τ/ν = Re_τ`. Present cases: β ≈ 0.9–1.8, K ≈ −0.4 to −0.5×10⁻⁷, Re_τ ≈ 7100–7770. [source]
+- **PG parameters:** Clauser `β = tΔ/tPG = (δ*/τ_w) dP/dx`; acceleration parameter `K = (ν/U∞²)dU∞/dx`; Rotta–Clauser length `Δ = ∫u_τ⁻¹(U∞−U)dy ≈ 3.5δ`; `Re_Δ ≡ Δu_τ/ν = Re_τ`. Present cases: β ≈ 0.9–1.8, K ≈ −0.4 to −0.5×10⁻⁷, Re_τ ≈ 7100–7770.
 - **Hot-wire** (in-house 3-wire probe: an ×-array for u,v + a single wire for u; 5 μm gold-plated
-  tungsten; Kawall–Shokr–Keffer design; `L⁺=17.6`). `u_τ` from Preston tubes cross-checked by a matched-profile (Clauser-like) method (agree within ±8%). See [[hot-wire-anemometry]]. [source]
+  tungsten; Kawall–Shokr–Keffer design; `L⁺=17.6`). `u_τ` from Preston tubes cross-checked by a matched-profile (Clauser-like) method (agree within ±8%). See [[hot-wire-anemometry]].
 
 ## Key results (cited to this paper)
 
-- **MMB terms:** ZPG/channel = 3 terms (VF, TI, MI or PG); **APG = 4 terms** (VF, TI, MI, PG). [source]
-- **Inertial-sublayer onset** (VF loses leading order): `y⁺≈3√δ⁺` (ZPG), **`y⁺≈1.5√δ⁺` (APG)**. [source]
-- In APG the **TI zero-crossing occurs well beyond** where the VF loses leading order (they coincide in ZPG) → the TI zero-crossing / peak-RS is **no longer a signature** of the inertial-sublayer onset; turbulence does not act as a pure momentum sink there. [source]
-- **APG streamwise variance `u²⁺` has no logarithmic decay and is not self-similar** (unlike ZPG) → Townsend/Perry attached-eddy arguments don't transfer directly. [source]
+- **MMB terms:** ZPG/channel = 3 terms (VF, TI, MI or PG); **APG = 4 terms** (VF, TI, MI, PG).
+- **Inertial-sublayer onset** (VF loses leading order): `y⁺≈3√δ⁺` (ZPG), **`y⁺≈1.5√δ⁺` (APG)**.
+- In APG the **TI zero-crossing occurs well beyond** where the VF loses leading order (they coincide in ZPG) → the TI zero-crossing / peak-RS is **no longer a signature** of the inertial-sublayer onset; turbulence does not act as a pure momentum sink there.
+- **APG streamwise variance `u²⁺` has no logarithmic decay and is not self-similar** (unlike ZPG) → Townsend/Perry attached-eddy arguments don't transfer directly.
 - **Distance-from-the-wall (y-) scaling holds for both ZPG and APG** on the inertial sublayer
-  (indicator function collapses vs `y⁺/√δ⁺`; spectral peaks at `λ_x/y≈2`). [source]
-- `−uv⁺` exceeds 1 in some APG cases even at small β → local `u_τ` may not be the correct velocity scale; a shift toward **pressure-dependent scaling** as β increases; **β effects diminish as Re rises**. [source]
-- **Scaling-patch theory** ([[self-similar-hierarchy|Fife et al. 2009]]): self-similar mean dynamics give y-scaling; a **constant** velocity scale (λ=1) → **log-law**; a **non-constant** scale (`λ∼ϵ⁻σ`, σ>0) → **power-law** `U⁺∼(y⁺)^{2σ/(1+σ)}` (σ=1/3 gives Stratford's half-power law). Log-law constants `κ≈0.384` (1/κ=2.6), `B≈4.4`. [source]
+  (indicator function collapses vs `y⁺/√δ⁺`; spectral peaks at `λ_x/y≈2`).
+- `−uv⁺` exceeds 1 in some APG cases even at small β → local `u_τ` may not be the correct velocity scale; a shift toward **pressure-dependent scaling** as β increases; **β effects diminish as Re rises**.
+- **Scaling-patch theory** ([[self-similar-hierarchy|Fife et al. 2009]]): self-similar mean dynamics give y-scaling; a **constant** velocity scale (λ=1) → **log-law**; a **non-constant** scale (`λ∼ϵ⁻σ`, σ>0) → **power-law** `U⁺∼(y⁺)^{2σ/(1+σ)}` (σ=1/3 gives Stratford's half-power law). Log-law constants `κ≈0.384` (1/κ=2.6), `B≈4.4`.
 
 ## Notation mapping (this paper vs canon)
 

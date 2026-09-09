@@ -50,8 +50,8 @@ In unsteady/spatially-developing flow, term III absorbs the unsteady + pressure-
 ## Practical notes (from separated-flow testing)
 
 - The method needs the **flow-reversal region resolved**: to get the negative `τ_w` in separation within 20%, capture ≈35–75% of the reversal thickness `y_s`; displacing the near-wall point outward monotonically **underestimates** `τ_w`. [source: [[2020-wengrove-expfluids]]]
-- On **curved walls**, use surface-following `s–n` coordinates, or apply a **wall-slope correction** `C_f = C_{f,xy}/cosα` to a Cartesian computation (α = local wall slope). [source]
-- Term III (total-flux gradient) tends to dominate; in separation, terms II and III are large, opposite-sign and nearly cancel. [source]
+- On **curved walls**, use surface-following `s–n` coordinates, or apply a **wall-slope correction** `C_f = C_{f,xy}/cosα` to a Cartesian computation (α = local wall slope). ([[2020-wengrove-expfluids|source]])
+- Term III (total-flux gradient) tends to dominate; in separation, terms II and III are large, opposite-sign and nearly cancel. ([[2020-wengrove-expfluids|source]])
 
 ## Where it appears in Reza's threads
 

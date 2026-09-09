@@ -41,12 +41,12 @@ Mean viscous force becomes sub-dominant beyond `y⁺≈2.6√δ⁺` (region III 
 
 ### Extra term under a pressure gradient (APG)
 
-Adding an [[adverse-pressure-gradient-tbl|adverse pressure gradient]] gives a **four-term** MMB (VF + TI + MI + **PG**) instead of three ([[2022-romero-jfm]]). A consequence: the **TI zero-crossing decouples from the inertial-sublayer onset** (they coincide in ZPG/channel) — so peak Reynolds stress is no longer the signature of entering the inertial sublayer, and turbulence need not act as a pure momentum sink there. [source]
+Adding an [[adverse-pressure-gradient-tbl|adverse pressure gradient]] gives a **four-term** MMB (VF + TI + MI + **PG**) instead of three ([[2022-romero-jfm]]). A consequence: the **TI zero-crossing decouples from the inertial-sublayer onset** (they coincide in ZPG/channel) — so peak Reynolds stress is no longer the signature of entering the inertial sublayer, and turbulence need not act as a pure momentum sink there.
 
 ## Why it matters
 
 - Provides a **physics-based, term-balance criterion** for wall-turbulence structure rather than an assumed profile shape.
-- Used in Reza's thread 3 as an **operational definition of "fully-developed turbulence"**: in [[2016-ebadi-ictam]] and [[2019-ebadi-jfm]], a phase in the oscillatory cycle is deemed turbulent when the ordering of the leading MMB terms matches the Wei et al. four-layer structure — it emerges for Re_s=801, 1009 at exactly the steady-like phases, never for Re_s=648. [[2019-ebadi-jfm]] proposes the four-layer structure as an **excellent metric for whether a wall bounded flow has transitioned to turbulence**. [source]
+- Used in Reza's thread 3 as an **operational definition of "fully-developed turbulence"**: in [[2016-ebadi-ictam]] and [[2019-ebadi-jfm]], a phase in the oscillatory cycle is deemed turbulent when the ordering of the leading MMB terms matches the Wei et al. four-layer structure — it emerges for Re_s=801, 1009 at exactly the steady-like phases, never for Re_s=648. [[2019-ebadi-jfm]] proposes the four-layer structure as an **excellent metric for whether a wall bounded flow has transitioned to turbulence**.
 
 ## Where it appears in Reza's threads
 

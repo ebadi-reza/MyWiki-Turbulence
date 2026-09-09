@@ -22,9 +22,9 @@ Introduces an **integral validation technique** for RANS turbulence models: rath
 ## Setup
 
 - **Flow / parameters:** reciprocating channel flow (period `T`, `ω=2π/T`). [[womersley-number|Womersley number]] `Wo = h√(ω/ν)` (written `α` in this paper);
-  peak Reynolds number `Re_p = 2U_m h/ν`; relation `Re_p/Wo = √2·Re_s` with [[stokes-reynolds-number|`Re_s = U_m l_s/ν`]]. `Wo²` = ratio of diffusion time `h²/ν` to oscillation time `ω⁻¹`. [source]
+  peak Reynolds number `Re_p = 2U_m h/ν`; relation `Re_p/Wo = √2·Re_s` with [[stokes-reynolds-number|`Re_s = U_m l_s/ν`]]. `Wo²` = ratio of diffusion time `h²/ν` to oscillation time `ω⁻¹`.
 - **Cases:** Re_s=648 (Wo=20.47; edge of disturbed-laminar/intermittently-turbulent) and
-  Re_s=1019 (Wo=17.72; well within intermittently turbulent). Critical `Re_s ≈ 750` for III→IV transition. [source]
+  Re_s=1019 (Wo=17.72; well within intermittently turbulent). Critical `Re_s ≈ 750` for III→IV transition.
 - **Temperature:** passive scalar, `Pr=0.7`, isothermal walls (bottom=1, top=0).
 - **DNS:** finite-difference code (Dubief et al.), 128³ (checked at 256³), domain 10h×5h×2h; phase-averaged over 10 periods, 32 phases/period.
 - **RANS:** OpenFOAM 2.3.0, PISO, 2D, **low-Reynolds-number models** (first grid point
@@ -37,13 +37,13 @@ al.; Mehdi et al.; [[2015-ebadi-ijhmt|Ebadi et al. 2015]]) gives, for a height `
 
 ## Key results / numbers (cited to this paper)
 
-- **Standard technique:** both models predict `τ_w` and `Nu` to **within ~20%** of DNS (Eqs. 21–22) → superficially "reasonable." Largest errors at `6π/16≤φ≤11π/16` (accel→decel), where transition occurs; RANS transition occurs at a **phase-lead** vs DNS. [source]
-- **Integral technique:** models predict the `τ_w` terms reasonably but the `q″_w` terms **poorly**. Term II* (turbulent heat flux) **underpredicted by ~40%** during deceleration;  term III* (unsteady temperature) **opposite sign, π out of phase, error >100%** (Table 4). The two errors **cancel serendipitously** → decent `Nu` despite wrong physics. [source]
-- Term error magnitudes (Eq. 25): II, II* ≈ 20–30%; III ≈ 10–15%; III* > 100%. [source]
-- **Reynolds-analogy breakdown:** `Pr_T` computed directly from DNS (Eq. 26) is **highly variable** across the channel and between phases — *not* constant (unlike steady channel flow where `Pr_T≈const`). ⇒ Reynolds analogy is a flawed assumption in reciprocating flow; reliable prediction needs an independent energy-equation solution or a better `Pr_T` representation. [source] See [[reynolds-analogy]].
+- **Standard technique:** both models predict `τ_w` and `Nu` to **within ~20%** of DNS (Eqs. 21–22) → superficially "reasonable." Largest errors at `6π/16≤φ≤11π/16` (accel→decel), where transition occurs; RANS transition occurs at a **phase-lead** vs DNS.
+- **Integral technique:** models predict the `τ_w` terms reasonably but the `q″_w` terms **poorly**. Term II* (turbulent heat flux) **underpredicted by ~40%** during deceleration;  term III* (unsteady temperature) **opposite sign, π out of phase, error >100%** (Table 4). The two errors **cancel serendipitously** → decent `Nu` despite wrong physics.
+- Term error magnitudes (Eq. 25): II, II* ≈ 20–30%; III ≈ 10–15%; III* > 100%.
+- **Reynolds-analogy breakdown:** `Pr_T` computed directly from DNS (Eq. 26) is **highly variable** across the channel and between phases — *not* constant (unlike steady channel flow where `Pr_T≈const`). ⇒ Reynolds analogy is a flawed assumption in reciprocating flow; reliable prediction needs an independent energy-equation solution or a better `Pr_T` representation. See [[reynolds-analogy]].
 - **Root causes identified:** (a) turbulent-flux term underpredicted during deceleration;
   (b) unsteady velocity/temperature fields unreliably predicted; (c) Reynolds-analogy
-  breakdown. [source]
+  breakdown.
 
 ## Notation mapping (this paper vs wiki canon)
 

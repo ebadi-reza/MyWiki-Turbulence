@@ -16,9 +16,9 @@ updated: 2026-09-08
 
 - **Layer width `W`** = the local rescaling length = the size of the turbulent motions responsible for wallward momentum flux (Klewicki et al. 2014). Momentum-side `W⁺` from DNS is invariant with δ⁺ and, on the **inertial domain, linear in y⁺** with slope `1/φ_c`; scalar-side `W⁺_θ = (−d²Θ⁺/dy⁺²)^{−1/2}` (Zhou et al. 2017). [source: [[2019-bautista-jfm]], [[2020-ebadi-jfm]]]
 - **Fife similarity parameter** `φ_c = (1+√5)/2 ≈ 1.62` (golden ratio) = inverse of the  asymptotic slope of `W⁺(y⁺)` on the inertial domain, and it satisfies **`φ_c² = 1/κ`**
-  (von Kármán constant). It sets the geometric fissure spacing `y⁺_{i+1} = φ_c y⁺_i` and the velocity increment per layer `ΔU⁺ = φ_c² ln φ_c`; inertial/subinertial split at `y⁺=φ_c²√δ⁺`, inertial-domain onset (region III outer edge) at `y⁺≈2.6√δ⁺`. [source]
-- **Number of inertial layers** `L = ⌊1.04 ln δ⁺ − 2⌋` — grows logarithmically with δ⁺ (countably infinite as δ⁺→∞). [source]
-- **Scalar von Kármán constant** `κ_θ = 1/φ²_θc`. [source]
+  (von Kármán constant). It sets the geometric fissure spacing `y⁺_{i+1} = φ_c y⁺_i` and the velocity increment per layer `ΔU⁺ = φ_c² ln φ_c`; inertial/subinertial split at `y⁺=φ_c²√δ⁺`, inertial-domain onset (region III outer edge) at `y⁺≈2.6√δ⁺`. ([[2019-bautista-jfm|source]])
+- **Number of inertial layers** `L = ⌊1.04 ln δ⁺ − 2⌋` — grows logarithmically with δ⁺ (countably infinite as δ⁺→∞). ([[2019-bautista-jfm|source]])
+- **Scalar von Kármán constant** `κ_θ = 1/φ²_θc`. ([[2020-ebadi-jfm|source]])
 - "Logarithmically many" internal layers span the inertial region — the conceptual basis for the [[uniform-momentum-zones|UMZ/VF]] and [[uniform-temperature-zones|UTZ/TF]] models.
 
 ## Scaling patches → log-law *or* power-law
@@ -27,7 +27,7 @@ A **scaling patch** (Fife et al. 2009) is a subdomain where the space variable a
 - if self-similar mean dynamics hold with a **constant** velocity scale (`λ=1`) → distance-from-the-wall scaling → **logarithmic** mean profile;
 - if the velocity scale is **non-constant** (`λ∼ϵ⁻σ`, σ>0) → y-scaling still holds but the mean profile is a **power-law** `U⁺∼(y⁺)^{2σ/(1+σ)}` (σ=1/3 recovers Stratford's half-power law).
 
-So distance-from-the-wall scaling is the deeper invariant; whether it yields a log-law or a power-law depends on the velocity-scale hierarchy — relevant to [[adverse-pressure-gradient-tbl|APG flows]]. [source]
+So distance-from-the-wall scaling is the deeper invariant; whether it yields a log-law or a power-law depends on the velocity-scale hierarchy — relevant to [[adverse-pressure-gradient-tbl|APG flows]]. ([[2022-romero-jfm|source]])
 
 ## Why it matters
 

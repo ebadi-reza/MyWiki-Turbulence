@@ -38,18 +38,18 @@ were mined for content not in any paper.
 
 The results (four-layer structure, internal layer, conditions I & II) match [[2016-ebadi-ictam]]/[[2019-ebadi-jfm]]; the **literature review adds**:
 
-- **Critical `Re_s` values** (thesis): `I→II ≈ 280` (Akhavan et al. 1991a), `II→III ≈ 500`, `III→IV ≈ 750`, `IV→V ≈ 3460`. ⚠️ **Conflict:** the later [[2019-ebadi-jfm]] gives `I→II ≈ 100`. Flagged on [[stokes-reynolds-number]]; not reconciled here. [source]
+- **Critical `Re_s` values** (thesis): `I→II ≈ 280` (Akhavan et al. 1991a), `II→III ≈ 500`, `III→IV ≈ 750`, `IV→V ≈ 3460`. ⚠️ **Conflict:** the later [[2019-ebadi-jfm]] gives `I→II ≈ 100`. Flagged on [[stokes-reynolds-number]]; not reconciled here.
 - **Theoretical transition-mechanism approaches:** *quasi-steady* linear stability (Von Kerczek &
   Davis 1974) predicts `Re_s,III→IV = 86` (far too low); *time-dependent* Floquet analysis
   (Blennerhassett & Bassom 2006) predicts `1416` (far too high). Conclusion: transition needs
   **both** retained time-dependency **and** order-one (large) velocity fluctuations — an analysis
-  doing both has not been done. Studer et al. (2006) use a wavelet approach (two mechanisms: instability-driven vs laminar–turbulent interface). [source]
+  doing both has not been done. Studer et al. (2006) use a wavelet approach (two mechanisms: instability-driven vs laminar–turbulent interface).
 - **Unsteady length scale** `δ_t = u_τ/ω` (Akhavan et al. 1991a) — a *third* length scale for
   reciprocating flow, giving four log-law scenarios; see [[log-law]]. Current DNS = Case 2
-  (modified log law, intercept `B₁(u_τ/hω)`). [source]
-- Peak Reynolds stress at `y⁺ ≈ 1.9√h⁺` (steady channel; Afzal 1982; Wei et al. 2005a). [source]
+  (modified log law, intercept `B₁(u_τ/hω)`).
+- Peak Reynolds stress at `y⁺ ≈ 1.9√h⁺` (steady channel; Afzal 1982; Wei et al. 2005a).
 - Momentum redistribution explained via **quadrant analysis** (Q1 outward interactions, Q2
-  ejections, Q3 inward interactions, Q4 sweeps); regions of `u'v'>0` (Q1/Q3) redistribute between the **interior momentum sink** and the **centerline momentum source**. See [[turbulent-inertia]]. [source]
+  ejections, Q3 inward interactions, Q4 sweeps); regions of `u'v'>0` (Q1/Q3) redistribute between the **interior momentum sink** and the **centerline momentum source**. See [[turbulent-inertia]].
 
 ## Chapter 7 — pulsatile boundary layer flow (UNPUBLISHED)
 
@@ -58,11 +58,11 @@ The full experimental treatment lives on [[pulsatile-flow]]. Highlights: PIV in 
 ## Appendices (unpublished)
 
 - **Appendix A — feedback controllers, thermocouple amplifier, enclosure box.** User-manual detail for the [[neat-wind-tunnel|thermal wall plate]] control hardware: per-plate SCR + NPN-transistor
-  feedback circuit (isolates low-current DAQ from high-current heaters; SCR conducts half the AC cycle → ~60 V DC effective; 10 A SCR limit, 7.5 A max per plate), 6 PCB controller boards (12 active + 6 spare circuits), Analog Devices **AD594** thermocouple amplifiers (10 mV/°C), and a Hammond enclosure box with 5 cooling fans. See [[neat-wind-tunnel]]. [source]
+  feedback circuit (isolates low-current DAQ from high-current heaters; SCR conducts half the AC cycle → ~60 V DC effective; 10 A SCR limit, 7.5 A max per plate), 6 PCB controller boards (12 active + 6 spare circuits), Analog Devices **AD594** thermocouple amplifiers (10 mV/°C), and a Hammond enclosure box with 5 cooling fans. See [[neat-wind-tunnel]].
 - **Appendix B — modulation frequency of wall shear stress and heat flux.** Toy model: near the centerline, wall **shear stress modulates at the forcing frequency `ω`**, but wall **heat flux /
-  Nu modulates at `2ω`**. Filed as [[wall-flux-modulation-frequency]]. [source]
+  Nu modulates at `2ω`**. Filed as [[wall-flux-modulation-frequency]].
 - **Appendix C — experimental procedure.** Step-by-step PIV protocol (DaVis 8.3.1/8.0.6; dual
-  HighSpeedStar cameras; calibration; laser at 14 A; AOI 448×1024 px at 7.2 kHz; tunnel oil cleanup). Distilled into [[piv]]. [source]
+  HighSpeedStar cameras; calibration; laser at 14 A; AOI 448×1024 px at 7.2 kHz; tunnel oil cleanup). Distilled into [[piv]].
 
 ## Notation mapping (thesis vs canon)
 

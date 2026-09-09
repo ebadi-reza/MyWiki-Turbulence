@@ -23,8 +23,8 @@ where `q″_w` is [[wall-heat-flux]], `ρ` density, `C_p` specific heat, `U∞` 
 The [[triple-integral-identity]] applied to the energy equation writes `St` as three additive contributions (Eq. 4 of [[2015-ebadi-ijhmt]]):
 
 - **Term I** — mean-temperature contribution; scales as `Pe⁻¹` (shrinks at high Péclet).
-- **Term II** — turbulent-heat-flux contribution; **dominant** (~60–78%). [source]
-- **Term III** — gradient of the total (molecular + turbulent) heat flux; ~9–35%. [source]
+- **Term II** — turbulent-heat-flux contribution; **dominant** (~60–78%). ([[2015-ebadi-ijhmt|source]])
+- **Term III** — gradient of the total (molecular + turbulent) heat flux; ~9–35%. ([[2015-ebadi-ijhmt|source]])
 
 This ties the wall heat transfer to the mean-flow dynamics.
 

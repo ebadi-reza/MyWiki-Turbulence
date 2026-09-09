@@ -27,7 +27,7 @@ updated: 2026-09-08
 
 A full step-by-step PIV protocol is documented in [[2016-ebadi-thesis]] Appendix C: DaVis
 8.3.1/8.0.6 (the older build is more stable near mask edges), dual HighSpeedStar cameras with
-two-camera independent 2D calibration, laser at 14 A for acquisition, and an **AOI of 448×1024 px recorded at 7.2 kHz** (full-frame 1024² maxes at 3.6 kHz — smaller AOI buys frame rate). Wall location is estimated from the calibrated image; periodic tunnel oil cleanup is required. [source]
+two-camera independent 2D calibration, laser at 14 A for acquisition, and an **AOI of 448×1024 px recorded at 7.2 kHz** (full-frame 1024² maxes at 3.6 kHz — smaller AOI buys frame rate). Wall location is estimated from the calibrated image; periodic tunnel oil cleanup is required.
 
 ## Why it matters
 

@@ -37,13 +37,13 @@ This decomposition connects wall transport to the mean-flow dynamics (cited to s
 
 ## Key results / numbers (all cited to this paper)
 
-- **Term contributions to St** (DNS + experimental): II dominates (~60–78%), III next (~9–35%), I smallest (~5–15%) and decreasing with Pe. [source]
-- **DNS validation** (Araya–Castillo [27]; Wu–Moin [28]): recovered St ≈ published value, effectively zero difference at integration limit `η_t = 1`. [source]
-- **Wall-position robustness:** shifting the wall-normal origin by `Δy⁺ ≤ 10` changes  St by **< 3%** — far more robust than a differential wall-gradient method. [source]
-- **Integration-limit sensitivity:** more sensitive to the **lower** limit than the upper. If lower limit `a⁺ < 10`, diminishing return from extending the upper limit; if `a/δ > 0.05`, push the upper limit as high as possible. [source]
-- **Noise/sparsity test** (Whittaker-smoothed, 5000 realizations): 95% CI on St is **±2.81%** for the worst case (N = 5000). Term III carries the highest % error (needs the smoothed derivative). [source] See [[whittaker-smoother]].
-- **Experimental validation** (Tsuji & Nagano natural-convection BL, hot-wire + cold-wire): **6–10%** difference between computed and reported `q″_w`; % difference falls with increasing outer limit `y_t/δ_T`, rapidly until `y_t/δ_T ≈ 0.3`. [source]
-- Statistical error estimates: `ε_Φ/Φ ~ 0.05/√N`; `ε_{v'φ'}/v'φ' ~ 2/√N`. [source]
+- **Term contributions to St** (DNS + experimental): II dominates (~60–78%), III next (~9–35%), I smallest (~5–15%) and decreasing with Pe.
+- **DNS validation** (Araya–Castillo [27]; Wu–Moin [28]): recovered St ≈ published value, effectively zero difference at integration limit `η_t = 1`.
+- **Wall-position robustness:** shifting the wall-normal origin by `Δy⁺ ≤ 10` changes  St by **< 3%** — far more robust than a differential wall-gradient method.
+- **Integration-limit sensitivity:** more sensitive to the **lower** limit than the upper. If lower limit `a⁺ < 10`, diminishing return from extending the upper limit; if `a/δ > 0.05`, push the upper limit as high as possible.
+- **Noise/sparsity test** (Whittaker-smoothed, 5000 realizations): 95% CI on St is **±2.81%** for the worst case (N = 5000). Term III carries the highest % error (needs the smoothed derivative). See [[whittaker-smoother]].
+- **Experimental validation** (Tsuji & Nagano natural-convection BL, hot-wire + cold-wire): **6–10%** difference between computed and reported `q″_w`; % difference falls with increasing outer limit `y_t/δ_T`, rapidly until `y_t/δ_T ≈ 0.3`.
+- Statistical error estimates: `ε_Φ/Φ ~ 0.05/√N`; `ε_{v'φ'}/v'φ' ~ 2/√N`.
 
 ## Notation mapping (this paper vs wiki canon)
 

@@ -30,7 +30,7 @@ momentum analogue of [[wall-heat-flux|wall heat flux]] and [[stanton-number|Stan
 
 1. **Near-wall velocity gradient** `μ(∂u/∂y)|_w` — direct but needs well-resolved sublayer data;
    fails where the wall position is uncertain.
-2. **Clauser / modified Clauser method** — fit the mean profile to the [[log-law]]; **fails near separation** (the log region vanishes in the separation bubble and only slowly re-emerges after reattachment). [source]
+2. **Clauser / modified Clauser method** — fit the mean profile to the [[log-law]]; **fails near separation** (the log region vanishes in the separation bubble and only slowly re-emerges after reattachment). ([[2020-wengrove-expfluids|source]])
 3. **Momentum-thickness / multi-station methods** (Brzek et al.; Volino & Schultz) — need profiles at multiple streamwise locations.
 4. **Momentum integral method (MW-MIM)** — the [[triple-integral-identity]] momentum side
    (Mehdi & White 2011; Mehdi et al. 2014): exact `τ_w` from single-station mean-velocity +

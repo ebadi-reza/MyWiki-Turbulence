@@ -36,16 +36,16 @@ $$
 \frac{Re_p}{Wo} = \sqrt{2}\,Re_s
 $$
 
-So `Wo` and `Re_p` together fix `Re_s`; increasing `Re_s` (toward turbulence) means **decreasing `Wo` and/or increasing `Re_p`** [[2017-pond-compfluids]]. [source]
+So `Wo` and `Re_p` together fix `Re_s`; increasing `Re_s` (toward turbulence) means **decreasing `Wo` and/or increasing `Re_p`** [[2017-pond-compfluids]]. ([[2017-pond-compfluids|source]])
 
 ## Why it matters
 
 - Primary unsteadiness parameter for the pulsatile/reciprocating thread.
-- For `Wo ≳ 0.1` there is a **phase difference between the stress and strain fields**, which most eddy-viscosity models cannot represent — a core reason reciprocating flow is hard for RANS ([[2017-pond-compfluids]]; [[cfd-validation-method]]). [source]
+- For `Wo ≳ 0.1` there is a **phase difference between the stress and strain fields**, which most eddy-viscosity models cannot represent — a core reason reciprocating flow is hard for RANS ([[2017-pond-compfluids]]; [[cfd-validation-method]]). ([[2017-pond-compfluids|source]])
 
 ## In Reza's threads
 
-- [[non-equilibrium-pulsatile-flow]] cases: Re_s=648 (Wo=20.47), Re_s=1019 (Wo=17.72). [source]
+- [[non-equilibrium-pulsatile-flow]] cases: Re_s=648 (Wo=20.47), Re_s=1019 (Wo=17.72). ([[2017-pond-compfluids|source]])
 
 ## ⚠️ Notation note
 

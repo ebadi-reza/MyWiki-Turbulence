@@ -32,10 +32,10 @@ $$
 
 ## Key results / numbers (cited to this paper)
 
-- Two DNS cases: **Re_s = 648 (type III, self-sustaining transition)** and **Re_s = 1019 (type IV, intermittently turbulent)**. [source]
-- For **Re_s = 1019**, a four-layer structure like Wei et al. emerges over `9π/16 ≤ φ ≤ 11π/16` (early deceleration); velocity and temperature profiles agree reasonably with canonical wall turbulence there. For **Re_s = 648** no such behavior at any phase. [source]
-- **Mechanism:** near `φ = π/2` (accel→decel), an internal shear layer emerges that **decelerates at a phase-lead** relative to near-wall and core, coincident with a strong **sink-like behavior of the turbulent inertia**; it likely rolls up, triggering transition to a fully-developed turbulent channel. Subsequent acceleration suppresses turbulence → back to transitional. [source]
-- **Threshold: Re_s > 750** for the internal shear layer (hence type III→IV  transition) to occur. [source]
+- Two DNS cases: **Re_s = 648 (type III, self-sustaining transition)** and **Re_s = 1019 (type IV, intermittently turbulent)**.
+- For **Re_s = 1019**, a four-layer structure like Wei et al. emerges over `9π/16 ≤ φ ≤ 11π/16` (early deceleration); velocity and temperature profiles agree reasonably with canonical wall turbulence there. For **Re_s = 648** no such behavior at any phase.
+- **Mechanism:** near `φ = π/2` (accel→decel), an internal shear layer emerges that **decelerates at a phase-lead** relative to near-wall and core, coincident with a strong **sink-like behavior of the turbulent inertia**; it likely rolls up, triggering transition to a fully-developed turbulent channel. Subsequent acceleration suppresses turbulence → back to transitional.
+- **Threshold: Re_s > 750** for the internal shear layer (hence type III→IV  transition) to occur.
 
 ## Notation mapping (this paper vs wiki canon)
 

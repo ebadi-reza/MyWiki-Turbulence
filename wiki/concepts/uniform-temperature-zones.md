@@ -29,7 +29,7 @@ updated: 2026-09-08
 
 ## Key findings
 
-- Reproduces mean `Θ⁺`, variance, skewness, kurtosis, and `u'θ'⁺` vs DNS (δ⁺=4088, Pr=0.2–1.0). Mean/variance/heat-flux are ~Pr-independent; **kurtosis strongly Pr-dependent**. [source]
-- Streamwise `u'u'⁺/u'θ'⁺ ≈ 2` (surrogate streamwise `Pr_t≈2`). [source]
+- Reproduces mean `Θ⁺`, variance, skewness, kurtosis, and `u'θ'⁺` vs DNS (δ⁺=4088, Pr=0.2–1.0). Mean/variance/heat-flux are ~Pr-independent; **kurtosis strongly Pr-dependent**. ([[2020-ebadi-jfm|source]])
+- Streamwise `u'u'⁺/u'θ'⁺ ≈ 2` (surrogate streamwise `Pr_t≈2`). ([[2020-ebadi-jfm|source]])
 
 See [[notation]].

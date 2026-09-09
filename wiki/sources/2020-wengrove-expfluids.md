@@ -32,19 +32,19 @@ $$
 
 Same three-term structure as the heat-flux method of [[2015-ebadi-ijhmt]]: I mean velocity, II
 Reynolds shear stress, III total-stress gradient. `s,n` = surface-following (tangent, wall-normal)
-coordinates; for a flat wall `s≡x`, `n≡y`. [source]
+coordinates; for a flat wall `s≡x`, `n≡y`.
 
 ## Datasets
 
 - **Backward-facing step:** Le et al. (1997) DNS ("Le97", `Re₀=5100`); Yoshioka et al. (2001) PIV
-  ("Yoshioka01", `Re_c=3700`). [source]
-- **Smooth hump (curved):** Marquillie et al. (2008) DNS ("Marquillie08", `Re=600`). [source]
+  ("Yoshioka01", `Re_c=3700`).
+- **Smooth hump (curved):** Marquillie et al. (2008) DNS ("Marquillie08", `Re=600`).
 
 ## Key results / numbers (cited to this paper)
 
-- MW-MIM accurately captures the `C_f(x)` development through separation — the **zero-crossings and the minimum** of `C_f` — even as near-wall points are removed, **as long as the flow-reversal region is resolved**. [source]
+- MW-MIM accurately captures the `C_f(x)` development through separation — the **zero-crossings and the minimum** of `C_f` — even as near-wall points are removed, **as long as the flow-reversal region is resolved**.
 - **Flow-reversal resolution requirement:** to estimate the negative wall stress within 20%, the
-  near-wall data must capture **≈35–75%** of the flow-reversal thickness `y_s`  (`y_min ≤ 0.25–0.65 y_s`, dataset/coordinate dependent). [source]
+  near-wall data must capture **≈35–75%** of the flow-reversal thickness `y_s`  (`y_min ≤ 0.25–0.65 y_s`, dataset/coordinate dependent).
 - **Coordinate system:** on curved walls, surface-following `s–n` is more accurate than Cartesian
   `x–y`; but a **wall-slope correction** recovers `x–y` accuracy without redefining coordinates:
 
@@ -52,12 +52,12 @@ $$
 C_f = \frac{C_{f,xy}}{\cos\alpha}
 $$
 
-  where `α` is the local wall slope. Windward-side `x–y` error up to 14% (uncorrected); <3% in the separation/recovery region. [source]
+  where `α` is the local wall slope. Windward-side `x–y` error up to 14% (uncorrected); <3% in the separation/recovery region.
 - **Term contributions** (Marquillie08): **term III (total-stress gradient) dominates** `C_f`
   (≈70–85% on windward side / crest); in the **separation** region terms II and III are large and
-  opposite-sign, nearly balancing, with III slightly larger → **negative `τ_w`**. [source]
-- Within the separation bubble/recovery region, MW-MIM **monotonically underestimates** `C_f` as the near-wall point is displaced from the wall. [source]
-- **Application:** offers the atmospheric-BL / oceanography communities a more accurate route to skin friction in complex flows than far-field methods. [source]
+  opposite-sign, nearly balancing, with III slightly larger → **negative `τ_w`**.
+- Within the separation bubble/recovery region, MW-MIM **monotonically underestimates** `C_f` as the near-wall point is displaced from the wall.
+- **Application:** offers the atmospheric-BL / oceanography communities a more accurate route to skin friction in complex flows than far-field methods.
 
 ## Notation mapping (this paper vs wiki canon)
 

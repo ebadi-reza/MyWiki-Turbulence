@@ -27,24 +27,24 @@ $$
   + \underbrace{\frac{1}{\delta^+}}_{HG} = 0
 $$
 
-  MD molecular diffusion, GT gradient of wall-normal turbulent heat flux (`T⁺_θ=−v'θ'⁺`), HG heat generation. Analogous to the mean momentum equation. [source]
-- Zhou et al. (2017) showed this balance has a **four-layer structure** (ratio MD/GT), analogous to [[four-layer-structure|Wei et al. (2005)]] for momentum. [source]
-- **Self-similar hierarchy:** layer width `W⁺_θ = (−d²Θ⁺/dy⁺²)^{−1/2}`; in the inertial (layer IV) domain `W⁺_θ` is linear in `y⁺`, `dW⁺_θ/dy⁺ = 1/φ_θc`, with scalar von Kármán constant `κ_θ = 1/φ²_θc` → a scalar [[log-law|log law]]. See [[self-similar-hierarchy]]. [source]
-- Friction temperature `θ_τ = (α/u_τ)(dΘ/dy)|_w`; heat generation `Q = θ_τ u_τ / h`. [source]
+  MD molecular diffusion, GT gradient of wall-normal turbulent heat flux (`T⁺_θ=−v'θ'⁺`), HG heat generation. Analogous to the mean momentum equation.
+- Zhou et al. (2017) showed this balance has a **four-layer structure** (ratio MD/GT), analogous to [[four-layer-structure|Wei et al. (2005)]] for momentum.
+- **Self-similar hierarchy:** layer width `W⁺_θ = (−d²Θ⁺/dy⁺²)^{−1/2}`; in the inertial (layer IV) domain `W⁺_θ` is linear in `y⁺`, `dW⁺_θ/dy⁺ = 1/φ_θc`, with scalar von Kármán constant `κ_θ = 1/φ²_θc` → a scalar [[log-law|log law]]. See [[self-similar-hierarchy]].
+- Friction temperature `θ_τ = (α/u_τ)(dΘ/dy)|_w`; heat generation `Q = θ_τ u_τ / h`.
 
 ## Key results / numbers (cited to this paper)
 
 - Discrete hierarchy in layer IV: `Δy⁺ ≈ [(φ_θc+1)/φ_θc] y⁺_i`,
-  `ΔΘ⁺ ≈ φ²_θc ln[(φ_θc+1)/φ_θc]`. Number of inertial TFs `N_TF ≈ ⌊ln(Pr δ⁺) − 0.8⌋`. [source]
+  `ΔΘ⁺ ≈ φ²_θc ln[(φ_θc+1)/φ_θc]`. Number of inertial TFs `N_TF ≈ ⌊ln(Pr δ⁺) − 0.8⌋`.
 - Inertial/subinertial split at `y⁺ = φ²_c √δ⁺` (momentum) / `2.5√(δ⁺/Pr)` (scalar);
-  VF spacing `y⁺_{j+1} ≈ φ_c y⁺_j` with **Fife similarity parameter `φ_c=(1+√5)/2≈1.62`**. [source]
-- TF width `f⁺_w = 6` prescribed (results independent of `f⁺_w` in the inertial domain). [source]
+  VF spacing `y⁺_{j+1} ≈ φ_c y⁺_j` with **Fife similarity parameter `φ_c=(1+√5)/2≈1.62`**.
+- TF width `f⁺_w = 6` prescribed (results independent of `f⁺_w` in the inertial domain).
 - Coupling to UMZ/VF (TF motion tied to VF motion, "case iv") gives streamwise `u'u'⁺/u'θ'⁺ ≈ 2` → surrogate **streamwise turbulent Prandtl number `Pr_t ≈ 2`**
-  (cf. Holt & Proctor 2008). [source]
-- **Validation:** DNS of Pirozzoli, Bernardini & Orlandi (2016) at **δ⁺ (Re_τ) = 4088**,  **Pr = 0.2, 0.71, 1.0**. Model reproduces mean `Θ⁺`, variance `θ'²⁺`, skewness, kurtosis, and streamwise heat flux `u'θ'⁺`. [source]
+  (cf. Holt & Proctor 2008).
+- **Validation:** DNS of Pirozzoli, Bernardini & Orlandi (2016) at **δ⁺ (Re_τ) = 4088**,  **Pr = 0.2, 0.71, 1.0**. Model reproduces mean `Θ⁺`, variance `θ'²⁺`, skewness, kurtosis, and streamwise heat flux `u'θ'⁺`.
 - **Pr-dependency:** mean, variance, and heat flux show little Pr-dependency (0.2≤Pr≤1);
   **skewness and especially kurtosis are strongly Pr-dependent** (kurtosis ← small-scale
-  variability). [source]
+  variability).
 
 ## Notation mapping (this paper vs wiki canon)
 

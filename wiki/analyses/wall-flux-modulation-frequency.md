@@ -44,7 +44,7 @@ $$
 T(t) = C_2 \cos(2\omega t)
 $$
 
-so temperature — and hence **wall heat flux / Nu — modulates at `2ω`**. [source]
+so temperature — and hence **wall heat flux / Nu — modulates at `2ω`**. ([[2016-ebadi-thesis|source]])
 
 ## Why it matters
 

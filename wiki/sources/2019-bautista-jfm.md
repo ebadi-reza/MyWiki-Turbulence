@@ -22,25 +22,25 @@ high-Reynolds-number wall turbulence, built from the [[uniform-momentum-zones|UM
 ## Theoretical basis
 
 - Mean momentum equation, inner-normalized — boundary layer: MI + MV + TI = 0; channel:
-  `1/δ⁺` (PG) + MV + TI = 0, with `T⁺ ≡ −u'v'⁺` the Reynolds stress. Three terms: mean inertia / pressure gradient, mean viscous force (MV), [[turbulent-inertia]] (TI). [source]
-- **Four-region structure** (ratio MV/TI; Wei et al. 2005): mean viscous force becomes sub-dominant beyond `y⁺ ≈ 2.6√δ⁺` (outer edge of region III) → inertial domain. Region widths/increments scale on `√(νh/u_τ)`, `u_τ`, `U_c` (Table 1). See [[four-layer-structure]]. [source]
+  `1/δ⁺` (PG) + MV + TI = 0, with `T⁺ ≡ −u'v'⁺` the Reynolds stress. Three terms: mean inertia / pressure gradient, mean viscous force (MV), [[turbulent-inertia]] (TI).
+- **Four-region structure** (ratio MV/TI; Wei et al. 2005): mean viscous force becomes sub-dominant beyond `y⁺ ≈ 2.6√δ⁺` (outer edge of region III) → inertial domain. Region widths/increments scale on `√(νh/u_τ)`, `u_τ`, `U_c` (Table 1). See [[four-layer-structure]].
 - **Self-similar hierarchy:** the mean equation rescales to a parameter-free invariant form on
-  a hierarchy of layers of width `W⁺`; on the inertial domain `W⁺` is **linear in y⁺**, `dW⁺/dy⁺ = 1/φ_c`, with **Fife similarity parameter `φ_c=(1+√5)/2≈1.62`** and `φ_c²=1/κ`. Discrete stacking: `y⁺_{i+1}=φ_c y⁺_i`, `ΔU⁺=φ_c² ln φ_c`. See [[self-similar-hierarchy]]. [source]
+  a hierarchy of layers of width `W⁺`; on the inertial domain `W⁺` is **linear in y⁺**, `dW⁺/dy⁺ = 1/φ_c`, with **Fife similarity parameter `φ_c=(1+√5)/2≈1.62`** and `φ_c²=1/κ`. Discrete stacking: `y⁺_{i+1}=φ_c y⁺_i`, `ΔU⁺=φ_c² ln φ_c`. See [[self-similar-hierarchy]].
 
 ## Key results / numbers (cited to this paper)
 
-- **VF thickness** `f_w/δ ≈ 1.3/√δ⁺` (~O(1/√δ⁺)), comparable to the Taylor microscale (~40% of it; Eisma 2015); **velocity jump per fissure slightly exceeds `u_τ`**. [source]
+- **VF thickness** `f_w/δ ≈ 1.3/√δ⁺` (~O(1/√δ⁺)), comparable to the Taylor microscale (~40% of it; Eisma 2015); **velocity jump per fissure slightly exceeds `u_τ`**.
 - **Number of inertial hierarchy layers** `L = ⌊1.04 ln δ⁺ − 2⌋` (≈ number of UMZs `N_UMZ` in
-  region IV); asymptotic estimates over-predict measured `N_UMZ` (de Silva 2016) — a 0.75  velocity-in-VF correction improves agreement. [source]
+  region IV); asymptotic estimates over-predict measured `N_UMZ` (de Silva 2016) — a 0.75  velocity-in-VF correction improves agreement.
 - **Model inputs (best):** fissure width `f_w⁺ = 6` (results **independent of `f_w⁺`** in the
-  inertial domain, `f_w⁺≲√δ⁺`); VF displacement PDF = **positively skewed Gaussian,  `σ=1.6Δy⁺_i`**; **momentum-exchange** rule (VF gains momentum moving wallward, loses moving outward). ~5000 realizations (~1 min on a PC). [source]
-- **Validation** vs Lee & Moser (2015) DNS at **δ⁺ ≈ 5200** (`U_c⁺≈26.5`, ~6 UMZs beyond region III): reproduces mean, variance (inner peak; **log decay of variance from  `y⁺≈2.6√δ⁺`**), skewness, kurtosis — including the **sub-Gaussian** inertial behavior.  Indicator function `Ξ=y⁺dU⁺/dy⁺` shows a pseudo-plateau → `κ=1/Ξ≈0.4`. [source]
+  inertial domain, `f_w⁺≲√δ⁺`); VF displacement PDF = **positively skewed Gaussian,  `σ=1.6Δy⁺_i`**; **momentum-exchange** rule (VF gains momentum moving wallward, loses moving outward). ~5000 realizations (~1 min on a PC).
+- **Validation** vs Lee & Moser (2015) DNS at **δ⁺ ≈ 5200** (`U_c⁺≈26.5`, ~6 UMZs beyond region III): reproduces mean, variance (inner peak; **log decay of variance from  `y⁺≈2.6√δ⁺`**), skewness, kurtosis — including the **sub-Gaussian** inertial behavior.  Indicator function `Ξ=y⁺dU⁺/dy⁺` shows a pseudo-plateau → `κ=1/Ξ≈0.4`.
 - **Discrepancies:** near wall (`y⁺≲10`) and boundary-layer edge — attributed to neglected
-  vortex stretching/reorientation and the ill-defined wake boundary condition. [source]
+  vortex stretching/reorientation and the ill-defined wake boundary condition.
 - **Momentum–vorticity link:** `dT/dy = v'ω_z − w'ω_y`; the model's VF repositioning captures
-  the `v'ω_z` term (Taylor vorticity transport). `v'ω_z>0` = momentum source (advection away  from wall); `<0` = sink. [source]
+  the `v'ω_z` term (Taylor vorticity transport). `v'ω_z>0` = momentum source (advection away  from wall); `<0` = sink.
 - Companion dynamical theory: Chini et al. (2017) self-sustaining-process (SSP) model of the
-  inertial layer; predicts VF thickness ~`δ⁺^{−2/5}`. [source]
+  inertial layer; predicts VF thickness ~`δ⁺^{−2/5}`.
 
 ## Notation mapping (this paper vs wiki canon)
 
